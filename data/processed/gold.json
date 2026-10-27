@@ -1,0 +1,1163 @@
+[
+    {
+        "id": 1356,
+        "event": 108,
+        "event_name": "Idaho Falls signing 2014",
+        "event_date": "2014-11-29",
+        "event_state": "N/A",
+        "date": "2014-11-29",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "innate investiture",
+            "perpendicularities",
+            "rafo-plus",
+            "worldhopping"
+        ],
+        "lines": [
+            {
+                "speaker": "leftinspace",
+                "text": "<p>I've picked up in bits in pieces that it's possible, for some people at least, to use the Shardpools to worldhop...</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Yes.</p>"
+            },
+            {
+                "speaker": "leftinspace",
+                "text": "<p>Can non-Invested people do that, or do you have to have some form of Investiture?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>*hesitantly* Every individual is Invested to some extent...</p>"
+            },
+            {
+                "speaker": "leftinspace",
+                "text": "<p>Do you have to have any special Investiture above and beyond the normal spark of life?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>I'm gonna go ahead and RAFO that.</p>"
+            }
+        ],
+        "note": "",
+        "rafo": true,
+        "topics": ["shardpool", "worldhop", "worldhopper", "non-invested", "Investiture"]
+    },
+    {
+        "id": 1290,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "writing"
+        ],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>I was curious what the-- or if you had an inspiration for the scene with Vin and Elend going to his father's camp and the talk about acceptance?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Yeah a lot of these con-- these stories-- If you didn't hear it, there's a scene where Vin and Elend in <em>Words of Radiance</em> go to visit-- *crowd murmurs* not <em>Words of Radiance</em> *laughter* <em>Well of Ascension</em>! They both start with a \"W\" I'm running out of letters to start books with. Yeah it's a good problem. So they go to talk to Straff and there's a lot of discussion about acceptance and just kind of things I was thinking about at the time and think about a lot. One of the things is \"I hope people enjoy this, if not you're just going to have to deal with it.\" I work out what I'm thinking about life through the voices of my characters. And it's something I really look for in books as well, I do want a little philosophy with my fantasy. And, y'know, it's not that I'm trying to <em>answer</em> those questions, but I'm working on them. And the characters, because they have a different perspective from myself--because the characters don't voice what I think, they voice what they think about something I'm thinking about--and that really kind of helps me think about it and talk through it. And it's one of the reasons I write books, besides doing awesome stuff.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["Vin", "Elend", "Straff Venture","inspirations", "writing", "acceptance"]
+    },
+    {
+        "id": 1393,
+        "event": 99,
+        "event_name": "Sasquan 2015",
+        "event_date": "2015-08-19",
+        "event_state": "N/A",
+        "date": "2015-08-19",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "emperor's soul film",
+            "steelheart film"
+        ],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>And the <em>Steelheart</em> film?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p><em>Steelheart</em> film is owned by Fox, different company, Shawn Levy's company, 21 Laps at Fox, they are the ones who did <em>Real Steel</em> if you ever saw that, the Richard Matheson story, and I thought their adaptation of that was really good. They also did the <em>Night of the Museum</em> films, and so when they came to me asking for <em>Steelheart</em>, I said yes, but I only signed on that in June, so I don't know- it's only been a couple months. I wouldn't expect an update for another couple months.</p>\n<p>We signed on <em>Emperor's Soul</em> in November, October of last year, so I've been able to see the progress on that one come along.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics": ["Steelheart", "steelheart film", "emperor's soul film"]
+    },
+    {
+        "id": 1357,
+        "event": 108,
+        "event_name": "Idaho Falls signing 2014",
+        "event_date": "2014-11-29",
+        "event_state": "N/A",
+        "date": "2014-11-29",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "odium"
+        ],
+        "lines": [
+            {
+                "speaker": "leftinspace",
+                "text": "<p>Can you write in one of my books about something we don't know about the Shards, or at least one of the Shards?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>*written* Odium has killed at least one more Shard than the ones we know about.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics": ["Odium", "written Spoiler", "Shards"]
+    },
+    {
+        "id": 1292,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "shattering of adonalsium"
+        ],
+        "lines": [
+            {
+                "speaker": "Wetlander",
+                "text": "<p>Was Adonalsium Shattered all at once? Or did each Shard form at a separate time?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>All at once.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["Shattering of Adolnasyum", "Shattering", "Adolnasyum"]
+    },
+    {
+        "id": 1307,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "alcatraz film"
+        ],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>I was wondering if you were thinking along the lines of a movie of <em>Alcatraz</em>?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>We tried really hard. We actually even got storyboards and things with Dreamworks Animation, which was going to be awesome, but then they eventually let it die. So if you buy the big art Dreamworks Animation book, there's actually <em>Alcatraz</em> concept art on one of the pages, which is kind of excruciating that it never happened.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics": ["Alcatraz film", "not cosmere"]
+    },
+    {
+        "id": 1306,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>Second question, if completely hypothetically, and forbid! - somebody had to do for you what you did for Robert Jordan, who would your choice be?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>I would probably either pick Brent Weeks, who has a very similar style to me, or Brian McClellan, who is one of my students who is now publishing books, and writing very good books. Those guys, either one, I think would do a fine job.</p>"
+            },
+            {
+                "speaker": "Questioner",
+                "text": "<p>I read McClellan's book on your recommendation. Can you let him know that he needs to put women in his books?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Yeah, that's what I actually told him. My number one criticism when he called me and said, \"What do you think of my book?\" I said, \"You only put one woman in your book, and she's a cliche.\" She's the friendly cliche, *audio obscured*. The first thing that happens is you get the cliched damsel in distress, then when people realize \"Oh, that's being sexist,\" they then make the girl awesome, but have no personality. That's like step two. Then step three is real characters, and so I did let him know, and he promised he would do better with future books. I think it is the most legitimate criticism of that book, is that he's just bad with women. But you know, my first book I was terrible; I just didn't publish that one. He's unfortunate that he published it. But even in <i>Mistborn</i>, I only had Vin, so we all fall into this trap, and I've read many women who only put one guy in the book, and he's perfect. It's just something that new authors have a problem with very naturally, so hopefully he'll catch on the same way I caught on.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["Cosmere post Brandon","Brent Weeks","Brian McClellan"]
+    },
+    {
+        "id": 1881,
+        "event": 133,
+        "event_name": "Elantris Annotations",
+        "event_date": "2005-04-21",
+        "event_state": "N/A",
+        "date": "2005-06-02",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "elantris book",
+            "elantris city"
+        ],
+        "lines": [
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p><strong>Title Page</strong></p>\n<p>You'd be surprised how much can be said about the title of this book. Naming books is one of the most frustrating, and most fulfilling, elements of writing. I'm more fortunate than some authors I know–for most of my books, the names came easily. Sometimes, I even came up with the title before I wrote the book. (This has actually only happened once, when thought up the phrase \"The Way of Kings,\" and thought \"Man! That would be a great title for a book!\")</p>\n<p><em>Elantris</em> has had several titles. During the rough draft phase, I simply called it \"SPIRIT.\" I knew that the main character's name would be based on the character for Spirit, and that would also be the name he took for himself when he was in exile. I never intended this to be the final title for the manuscript, but it was what I named all the files when I was typing the work.</p>\n<p>Those of you who've read the book realize the special significance of \"Spirit\" (or Aon Rao as it eventually became known) to the climax of the story. I'll talk more about this in a bit.</p>\n<p>Well, as I was writing the story, I realized I needed a better title. The most obvious choice was to somehow work in the name of the fallen magical city that was the focus of the book. Now, I'm a little embarrassed to admit this, but the city \"Elantris\" was actually originally named \"Adonis.\" I'm not sure what I was thinking. Sometimes, when you're coming up with a lot of fantastical names, you create words that have a certain, unforeseen connotations or connections. In this case, I wasn't even thinking of the Greek myth. \"Ado\" was simply the Aon I chose to base the city’s name around, and \"Adonis\" (Pronounced with a long \"A\" and a long \"O\") was the word that came out of that Aon.</p>\n<p>So, I named the book <em>The Spirit of Adonis</em>, hoping to play off of Raoden's name.</p>\n<p>It was, however, actually a three-fold pun. I included this line–\"The Spirit of Adonis\" at the climax, when Raoden realizes that the city itself formed an enormous Aon Rao.</p>\n<p>I didn't realize what I'd done until my writing group met for the first time, and they said \"I like the beginning of the book. I'm having trouble figuring out what this has to do with the Greeks. Is it because the god-like people were so arrogant?\"</p>\n<p>Then it hit me. Adonis, from Greek mythology, was a beautiful man loved by Aphrodite. The word has become a kind of paradigm for a beautiful–almost perfect–specimen of the male species. And I had unwittingly named my book after him.</p>\n<p>Let's just say I changed that pretty quickly. However, I needed a new name for the city. I played with a number of different combinations of Ado, but somehow ended up trying up different sounds and combinations. Thankfully, I came up with the word \"Elantris.\" As soon as I wrote it down, I knew this was my city. It sounded grand without being overbearing, and it had a mythological feel to it (hearkening slightly to \"Atlantis\".) I renamed the book \"<em>The Spirit of Elantris</em>,\" and proceeded.&lt;/p&gt;</p>\n<p>Then came time to send out the manuscript. I had had some comments on the book–people liked \"Elantris,\" but the \"spirit of\" was less popular. I tried several iterations, and even sent out some query letters calling the book \"THE LORDS OF ELANTRIS.\" That just felt too cliché fantasy for me, however, and I eventually returned to \"<em>The Spirit of Elantris</em>.\"</p>\n<p>Finally, the book got sold. At this point, my editor (Moshe Feder) suggested that we shorten the title to simply <em>Elantris</em>. Remembering how other people had been unimpressed with the \"spirit of,\" I agreed. Now that I've seen the cover lettering and worked with it as \"<em>Elantris</em>\" for some time, I'm very pleased with the change. The new title has more zip, and makes the book sound more majestic. I still get to have a reference to my old title, as Part Three of the book is called \"The Spirit of Elantris.\"</p>\n<p>Of course, even this title isn't without its problems. People have trouble spelling it when I say the title, and some think of the car named the \"Elantra.\" At one panel, I even had one person miss-hear me, thinking the name of the book was \"The Laundress.\" That would certainly be a different book...</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["Elantris","Elantris Annotations"]
+    },
+    {
+        "id": 1318,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>I've gotten both <i>Legion</i> books from Subterranean Press, and I was wondering if you've planned on doing any more through them.</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>I would like to. The thing is, it is kind of a hassle, just because working out release dates and things like that, part of the reason to do - I think they do gorgeous editions - but part of the reason to do the e-book things is so that I can be a little bit more spontaneous in releasing them and things like that, and so I'm likely to continue, but it is a bit hard. This time, we were like, \"Why don't you guys just release a limited edition, and we'll do a print edition,\" but then they were like, \"No, please don't do one.\" So I think I'd go back to letting them do a cheap edition and a limited edition if I did another one with them, I don't know.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["not cosmere"]
+    },
+    {
+        "id": 1396,
+        "event": 99,
+        "event_name": "Sasquan 2015",
+        "event_date": "2015-08-19",
+        "event_state": "N/A",
+        "date": "2015-08-19",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "favorites",
+            "hoid",
+            "rafo"
+        ],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>Which of the roles Hoid has played is your favorite? And will we be seeing him in Dalinar's flashbacks?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>So which of the roles played by Hoid is my favorite. I would probably say Dust from <em>Warbreaker</em>. I just like-- That's the most true storyteller he's been, kind of based on oral storytelling tradition and things like that.</p>\n<p>I can't tell you.  You'll have to read and find out whether you'll find him in Dalinar's flashbacks or not.</p>"
+            }
+        ],
+        "note": "",
+        "rafo": true,
+        "topics":["hoid", "rafo", "favorites", "Dalinar"]
+    },
+    {
+        "id": 1355,
+        "event": 108,
+        "event_name": "Idaho Falls signing 2014",
+        "event_date": "2014-11-29",
+        "event_state": "N/A",
+        "date": "2014-11-29",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "chronology",
+            "shattering of adonalsium",
+            "stormlight archive",
+            "white sand"
+        ],
+        "lines": [
+            {
+                "speaker": "leftinspace",
+                "text": "<p>Can you tell me how long it was from the Shattering of Adonalsium to the prelude of <em>The Way of Kings</em> when the Heralds abandoned the Oathpact?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Current timeline, which I have NOT canonized, is around 6,000 years... I have not finished with my outline document yet.</p>"
+            },
+            {
+                "speaker": "leftinspace",
+                "text": "<p>'Cause I've looked at the current chronology and it's very, very spotty...</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Yes it is... the real trick is... making sure that I fit in, for instance, <em>White Sand</em> and things with the proper amount... because I haven't released that book series yet, I have to make sure while we're doing the graphic novel, that it fits the chronology, which is why I can't quite canonize things yet.</p>"
+            },
+            {
+                "speaker": "leftinspace",
+                "text": "<p>That one takes place before <em>Way of Kings</em> doesn't it?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Yes</p>"
+            },
+            {
+                "speaker": "leftinspace",
+                "text": "<p>'Cause I know one of the worldhoppers from there shows up in <em>Way of Kings</em>...</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Yeah, <em>White Sand</em> is one of the very earliest.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["chronology","Shattering of Adolnasyum", "way of kings", "white sand", "worldhopper"]
+    },
+    {
+        "id": 1295,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "the dark talent"
+        ],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>Are we going to see Book 5 of <em>Alcatraz</em>?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Are you going to see Book 5 of <em>Alcatraz</em>, that counts as awesome. So I have written Book 5 of <em>Alcatraz</em>... I have written it, Tor is re-releasing them, because we bought them back from Scholastic and are then, I bought the rights back, I didn't think they were treating the books very well, and we sold them again to Tor, and Tor just got the cover art for the first four and it looks really cool. It's the best cover art I've had on an <em>Alcatraz</em> book, which is good because Alcatraz, in the books, makes fun of the cover art on the books because it is so bad. I don't think our publisher liked that. *laughter* So I'm going to have to change the line or something. Anyway the plan is to re-release those starting in January next year and release them every one to two months until we get to the fifth book in the summer and release it then. So it's still a little ways off, I've been saying that for a long time but there is at least cover art now and the book <em>is</em> actually written.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["Alcatraz", "not cosmere"]
+    },
+    {
+        "id": 1320,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "dalinar",
+            "kaladin",
+            "szeth",
+            "taravangian"
+        ],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>I read online, something about one of your original drafts, [I think it was about] Gavilar, and it was where he was blind?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Yeah that was actually Taravangian, in the oldest version. One of the very first things I wrote was that, though Taravangian had a different name then, and was very different. Szeth has stayed the same through all the revisions. Kaladin has changed wildly, and almost everybody has changed dramatically, except Szeth is the same person. Him and Dalinar are the same.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["original drafts", "taravangian", "old version", "Szeth","Kaladin", "Dalinar"]
+
+    },
+    {
+        "id": 9480,
+        "event": 316,
+        "event_name": "General Signed Books 2018",
+        "event_date": "2018-01-01",
+        "event_state": "N/A",
+        "date": "2018-03-29",
+        "paraphrased": false,
+        "modified_date": "2018-04-18T00:57:04.267277Z",
+        "tags": [
+            "celebrant chain",
+            "dragonsteel",
+            "rafo"
+        ],
+        "lines": [
+            {
+                "speaker": "The Sovereign",
+                "text": "<p>Is the chain in Celebrant made of Dragonsteel?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>RAFO!</p>"
+            }
+        ],
+        "note": "",
+        "rafo":true,
+        "topics":["celebrant chain", "rafo", "dragonsteel"]
+    },
+    {
+        "id": 1280,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "mistborn film"
+        ],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>Your <em>Mistborn</em> series are they trying to make a movie of it?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Yes I did-- They are trying to make a movie of it. I don't know when it will get made, or if it will get made, but I was reading the treatment for the second book on the plane today and it was actually really good.</p>"
+            }
+        ],
+        "note": "",
+        "rafo": false,
+        "topics":["mistborn film"]
+    },
+    {
+        "id": 1288,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>What are some of your favorite books to read to your kids?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Favorite books to read to the kids, hands down my favorite book to read to the kids is <em>Don't Let the Pigeon Drive the Bus</em> *laughter* Just, that story is just so much fun-- When they get it, right? I read it to the two- or three-year-old and they don't quite get it, but by four they're like \"I get to say no to the pigeon?\" and they <em>love</em> it. They absolutely love it. Lately we've been reading one they love called <em>Supertato</em>? We bought it when we were in the UK so they use all of these trolleys instead of-- And it's just about a potato that saves people-- that saves vegetables in the supermarket. And it came with stickers to stick on your own potatoes to turn them into supertatoes. And so-- I have three little boys and so they love, absolutely love <em>Supertato</em>. If you want to see a picture of my little boys, I did a blog thing--which was really just a big advertisement for my books, but don't tell anyone--talking about the superhero genre and my children who dress up as superheroes, and it's so funny. They are endless sources of inspiration. They go into the room and come out with things and they're like \"I'm Batman\" I'm like \"You've got a bucket, and you've got an iPad that you've affixed to your arm somehow, and you've got an oven mitt and you're Batman?\" \"I'm Batman\" \"You look just like him.\"</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["kids", "books", "not cosmere"]
+    },
+
+     {
+        "id": 1305,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>First of all, how confident are you in your race with [Patrick] Rothfuss for use of the word \"Stone\" in your title?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>You know, it's looking more and more like this might not even be Szeth's book. And if it's not Szeth's book, I may not even name it <i>Stones Unhallowed</i>; I might name it something else relating to another character, but then again, Kaladin's book was named after the book Dalinar was reading, so anyway. We'll see. I'm pretty sure I will... He has said his \"isn't coming out next year,\" as in coming out this year, and so... I'll have mine done by the end of this year, and it will be coming out next year, so it'll just depend</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["stones","Szeth"]
+
+    },
+    {
+        "id": 1283,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "adaptations"
+        ],
+        "lines": [
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>As an aside, it's really funny, like I've had on and off sort of things go well with Hollywood and things not go well with Hollywood and things get optioned. Someone in Hollywood read one of my books and then went online and googled about it and found about this whole thing and then called me and wanted to buy the rights to the entire thing 'cause they're like \"It's like the Avengers, everything's crossing over!\" Apparently that's hot in Hollywood right now, which is very cool that someone in Hollywood was excited by it but it was kind of funny to me that now that's the big deal and this goofy thing I've been doing for twenty years is suddenly hot. So who knows it might turn into something, it might not. For those who are curious about movie things I have optioned most of the rights to a lot of my different books. I think the closest-- *sighs* What's the closest? I'm not sure what the closest is. The closest is probably <em>The Emperor's Soul</em>, though <em>Mistborn</em> is close behind it. I don't think either one is particularly close right now. That's just how Hollywood works. So don't hold your breath but I hope to have exciting things I can say eventually, because I really do like the people, both <em>Emperor's Soul</em> and <em>Mistborn</em>. They're some of the best people in Hollywood I've ever worked with, those two groups. They feel very genuine and I have a great feeling about it.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["adaptations"]
+    },
+    {
+        "id": 1316,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>What was your inspiration for coming up with Szeth?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>So... I designed his culture first, one of the odd cases where I was working on the culture, and out of that grew his character, at odds with his culture. So I wanted somebody who was both the paragon of his culture and the person who was at odds with it. That concept just worked for me.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["inspirations","character", "Szeth"]
+    },
+    {
+        "id": 1286,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "chronology",
+            "sixth of the dusk"
+        ],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>Where does <em>Sixth of the Dusk</em> sit in the timeline?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Where does <em>Sixth of the Dusk</em> sit in the timeline. It is probably the furthest future of any of the cosmere stories I've done.</p>"
+            },
+            {
+                "speaker": "Questioner",
+                "text": "<p>So around the third trilogy of <em>Mistborn</em>?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Potentially, probably not quite to that. But yeah, it is very... But yeah that's the latest.</p>"
+            }
+        ],
+        "note": "At this time era 4 was considered the third Mistborn trilogy.",
+        "rafo":false,
+        "topics":["chronology","sixth of the dusk"]
+    },
+    {
+        "id": 1319,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>*Something incomprehensible about emotion* Do you like to connect with your reader on an emotional level?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>I do. So here's the thing: I am not an emotional person by my nature, and one of the only things that makes me feel very strong emotions is fiction. A really good piece of fiction makes me feel like the characters do, and the rest of the time, I'm just kind of - I won't say emotionless, but not emotional. It's not that. It's like some people have wild mood swings; one day they're a 20 and one day they're an 80, on a scale of 1 to 100, right? I'm always a 70, right? Like almost consistently always pleasantly happy. I don't know what depression feels like. I don't know what it really feels like to be sad. I've never really felt that - except when I'm reading a book. Does that make sense? So that's one of the reasons I write, because I want to be able to [go through] those emotions with people.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["not cosmere","writing"]
+    },
+    {
+        "id": 1298,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "shallan"
+        ],
+        "lines": [
+            {
+                "speaker": "Wetlander",
+                "text": "<p>The bit with the bandits out there, and the deserters, and she [Shallan] convinces them to all go... Was she doing Lightweaving? Was she doing Transformation? Was she doing some combination?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>She was... You have seen what she was doing before, done by another character.</p>"
+            }
+        ],
+        "note": "<a href=\"http://wob.coppermind.net/events/62/#e3068\">A follow-up to this exchange can be found here</a> where Brandon excludes Shai as a possibility for the other character..",
+        "rafo":false,
+        "topics":["shallan"]
+    },
+    {
+        "id": 1338,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>Which is your favorite Epic to write?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>To write? Obliteration, because he's creepy in the way I like people to be creepy.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["writing"]
+    },
+    {
+        "id": 1276,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>During the <em>Steelheart</em> tour you mentioned you were trying to work with Tor to get free ebook copies for every hardcover, did anything--</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Yes something is coming, I'll tell you about it... So, I think the first chance we're going to have to do this is for my next Tor book which is going to be <em>Shadows of Self</em>, a <em>Mistborn</em> novel. And if you watch we're going to-- we're coming up with something-- it's still-- I think in about five years, maybe sooner than that, this will happen with every book you buy, but I'm going to try and jump the gun because I'm tired of waiting and I'm going to be impatient. So when I come to UBooks for that book there should be an option to get the book with the ebook. I can't promise 100% but I have a half-go-ahead from Tor on coming up with something to do with this. I can't give you details because we're being recorded. *laughter* I could trust you, all of you. And the all the people you have on Twitter that you are tweeting to but I'm not sure I can trust him. *gestures to camera* But no, it should be coming. And so watch, if I can get this together we should be able to announce what we're doing and how we're doing it before too long. It's something that is very important to me, I want to be able to do bundling like this. What I really would like to do is be able to sell you a copy that has, for a slightly higher price but not super high, the ebook, the audiobook, and the hardcover. That's what I'm trying to make work.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["Steelheart", "not cosmere"]
+    },
+    {
+        "id": 1281,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>Which of the worlds is your favorite? Like if you could find yourself living in that world?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Woah, that's two different things. *laughter* Which is my favorite. Roshar is my favorite. I've been working on that one the longest. I think it is the most unique. I've put a lot into it, but I don't know if I would want to live there because on Scadrial, where the <em>Mistborn</em> books take place they have flush toilets, right? *laughter* They have some of them on Roshar too but on Scadrial they have <em>cars</em>. I <em>like</em> modern conveniences. I like mac &amp; cheese. I like the internet. And so the answer to you if someone were to say \"You have to live in one of the worlds you're going to make\" I would go hurriedly and write one that is far-future and awesome where nothing exciting ever happens. *laughter* Because that would be the best place for a writer to live.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["favorites", "worlds"]
+    },
+    {
+        "id": 10620,
+        "event": 358,
+        "event_name": "FanX 2018",
+        "event_date": "2018-09-06",
+        "event_state": "N/A",
+        "date": "2018-09-06",
+        "paraphrased": false,
+        "modified_date": "2024-08-15T13:43:31.032110Z",
+        "tags": [
+            "safehands"
+        ],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>So, Vorinism and the safehand, it's obviously a modesty type thing kind of like the hijab. Where does the modesty stop? Or does it go up the whole arm?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>It doesn't go up the whole arm, it actually ends at about the wrist.</p>"
+            },
+            {
+                "speaker": "Questioner",
+                "text": "<p>Okay, so if they had, like, a slitted sleeve?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>That would be fine.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["safehand","vorinism"]
+    },
+    {
+        "id": 1323,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "rithmatics"
+        ],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>If you drew a stick figure of a chalkling, would it be able to spike other chalklings and get their powers?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>*laughter* No, because no one in this world knows what that is, because they're separate universes, but it is very clever. If you were doing it, I'd probably let you get away with it.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["rithmatics","not cosmere"]
+    },
+    {
+        "id": 1325,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>How do you keep it all organized when you're doing so much at once?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>A wiki. An internal wiki is where I keep all the cosmere and all the notes on that. The other things, I don't have to worry about as much. For instance, <i>Reckoners</i>, I've got one viewpoint character and one major plot; that I can keep in my head. I've got note files and things like that, but the <i>Cosmere</i>? Big old wiki full of stuff.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["writing", "organization","wiki"]
+    },
+    {
+        "id": 10217,
+        "event": 345,
+        "event_name": "Postmodernism in Fantasy: An Essay by Brandon Sanderson",
+        "event_date": "2010-09-12",
+        "event_state": "N/A",
+        "date": "2010-09-12",
+        "paraphrased": false,
+        "modified_date": "2018-05-20T21:23:57.988589Z",
+        "tags": [],
+        "lines": [
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p><strong>POSTMODERNISM IN FANTASY</strong></p>\n<p><em><a href=\"http://search.barnesandnoble.com/The-Way-of-Kings/Brandon-Sanderson/e/9781429992800/?itm=1&amp;USRI=The+Way+of+Kings\">The Way of Kings</a></em> is out. I&rsquo;ve been thinking a lot about the novel, what it has meant to me over the years, and why I decided to write it as I did. I&rsquo;ve had a <em>lot</em> of trouble deciding how to pitch this novel to people. It&rsquo;s a trouble I&rsquo;ve never had before. I&rsquo;m going to explain why this one doesn&rsquo;t work as easily. But I&rsquo;m going to start with a story.</p>\n<p>There&rsquo;s a particular music video I saw quite often when working the graveyard shift at the local hotel. I worked that job primarily because it allowed me to write at work (I wrote some eight or so novels while sitting at that front desk, including both <em>Elantris</em> and the original draft of <em>The Way of Kings</em>). However, part of my job there was the do the night audit of the cash drawer and occupancy, that sort of thing. As I worked, VH1/MTV would often become my radio for an hour or so, playing on the little television hidden behind the front desk.</p>\n<p>The video was by Jewel, and was for the song &ldquo;<a href=\"http://www.youtube.com/watch?v=8Ilh1ewceco\">Intuition</a>.&rdquo; We&rsquo;ll pretend, for the sake of defending my masculinity, that I paid special attention for the literary nature of the video, and not because I have a fondness for Jewel&rsquo;s music. And there <em>was</em> something very curious about this video. In it, Jewel transitions back and forth between washed-out &ldquo;normal world&rdquo; shots of her walking on a street or interacting with people, and color-saturated &ldquo;music video&rdquo;-style shots of her engaging in product promotion while wearing revealing clothing.</p>\n<p>The tone of the video is a little heavy-handed in its message. Among other things, it is meant to parody rock star/music video culture. It shows Jewel in oversexualized situations, having sold herself out in an over-the-top way. It points a critical finger at sexual exploitation of the female form in advertising, and juxtaposes Jewel in a normal, everyday walk with a surreal, Hollywood version of herself promoting various products.</p>\n<p>Now, what is absolutely fascinating to me about this video is how perfectly it launches into an discussion&nbsp;of the literary concept of deconstructionism. You see, Jewel is able to come off looking self-aware&mdash;even down-to-earth&mdash;in this video, because of the focus she puts on how ridiculous and silly modern advertising is. The entire video is a condemnation of selling out, and a condemnation of using sexual exploitation in advertising.</p>\n<p>And yet, while making this condemnation, Jewel gets to reap the benefits of the very things she is denouncing. In the video, her &ldquo;Hollywood self&rdquo; wears a tight corset, gets soaked in water, and prances in a shimmering, low-cut gown while wind blows her hair in an alluring fashion. She points a critical finger at these things through hyperbole, and therefore gains the moral high ground&mdash;but the video depends on these very images to be successful. They&rsquo;re going to draw every eye in the room, gaining her publicity in the same way the video implies is problematic.</p>\n<p>Deconstructionism&nbsp;is a cornerstone of postmodern literary criticism. Now, as I&rsquo;m always careful to note, I&rsquo;m not an expert in these concepts. A great deal of what I present here is an oversimplification, both of Jewel&rsquo;s video and of postmodernism itself. But for the purposes of this essay, we don&rsquo;t have time for pages of literary theory. The title itself is already pretentious enough. So, I&rsquo;ll present to you the best explanation of deconstructionism&nbsp;I was given when working on my master&rsquo;s degree: &ldquo;It&rsquo;s when you point out that a story is relyin&rsquo; on the same thing it&rsquo;s denyin&rsquo;.&rdquo;</p>\n<p>That will work for now.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["postmodernism in fantasy", "only brandon"]
+        
+    },
+    {
+        "id": 1278,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "writing"
+        ],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>Do you have any advice for a married couple who both hope to be professional novelists?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>If you hope to be professional wri-- novelists and married couple, you're very lucky because you'll be able to understand each other. You are also \"you poor souls\" because you're going to ignore each other a lot. *laughter* I would say, the number one piece of advice I give to writers is this: Treat becoming a writer, doing your writing, like someone would treat being a pianist. Meaning your job is not to write a great book, your job is to train yourself to be a person who can write great books. And that is a very big distinction. You don't find pianists who only play one song. Maybe you do, they're at parties and they're trying to pick up girls. But otherwise a pianist is someone who enjoys the process of playing these different songs and learning this music. Same with writing. The job is <em>you</em> are the end result, not the book. A person who can write great books. And you do that by practicing a lot. At your own scale, whatever you can manage, but you do it by practicing. And you do it by thinking in your head \"This is all practice\" even the books that might get published is practice. It's about the process of creating something.</p>\n<p>Otherwise I would say listen to my podcast Writing Excuses we started a brand new thing on Writing Excuses, if you've never listened before, this year we're doing a master's class, is how we call it, where every month we are going to drill down into a topic and guide you through writing a story. Pre-writing the first month, and then plotting the second month and things like this. So writingexcuses.com. The other resource I have is my class. Now I teach that in Provo so you probably can't get to it, but I do post the lectures online and the ones from last year just went up. So if you want those I have little cards that show you the url, they're just free. My writing lectures, okay? But as a couple, set goals with each other, this is your big advantage. And, you know, don't set goals of \"I wrote more than you\" set goals of, like \"this is what I want to accomplish. This is my writing time. This is your writing time\" and help each other out. Plus you've got a great start to a writing group.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["life advice", "writing", "not cosmere"]
+    },
+    {
+        "id": 1371,
+        "event": 107,
+        "event_name": "Orem signing 2014",
+        "event_date": "2014-12-06",
+        "event_state": "N/A",
+        "date": "2014-12-06",
+        "paraphrased": true,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "kandra worldhopper",
+            "melaan",
+            "rafo"
+        ],
+        "lines": [
+            {
+                "speaker": "Newan ",
+                "text": "<p>Is the kandra worldhopper MeLaan?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson ",
+                "text": "<p>Good question. *hands Newan a RAFO card* In upcoming <em>Mistborn</em> books, you are going to get to know a lot more of the kandra, so you will have a lot more options.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":true,
+        "topics":["kandra", "worldhopper", "melaan", "rafo"]
+    },
+    {
+        "id": 9479,
+        "event": 316,
+        "event_name": "General Signed Books 2018",
+        "event_date": "2018-01-01",
+        "event_state": "N/A",
+        "date": "2018-03-26",
+        "paraphrased": false,
+        "modified_date": "2018-04-18T00:55:11.834487Z",
+        "tags": [
+            "sho del"
+        ],
+        "lines": [
+            {
+                "speaker": "The Sovereign",
+                "text": "<p>Are the Sho Del hordlings and/or a hivemind?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>The Sho Del are NOT a hivemind.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["sho del"]
+    },
+   
+    {
+        "id": 1277,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "allomancy",
+            "revisions",
+            "silver"
+        ],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>Was there an Allomantic power that didn't make it into the book?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Was there an Allomantic power that didn't make it into the book. Oh... Yes, but I'm trying to remember. I had like two dozen of them? Oh boy I can't even remember the ones that I discarded. I was going to do a lot more stuff externally, stuff that like wasn't inside of you and it didn't end up working out. The big thing that I talk about with Allomancy that changed is originally I was using...silver as one of the metals, this is-- this is because... Dumb story time, so when I was a kid I painted these little miniatures that you do in D&amp;D so your little guys can actually fight each other, right? And my brother still does this, they're awesome, I was terrible at it, but I painted these little guys. And at one point I went-- and they used to be lead, and then they realized that lead kills you *laughter* and so--or maybe it just makes you strange, I can't remember--I went and all of the prices had gone up, like by a double, because they had made them out of pewter instead. And I said to the guy \"What is up with this, you are totally ripping us off. My figures now cost us 50 cents instead of--\" I don't remember what it was and he went \"Uh yeah it's because pewter has silver in it man. You're buying little silver figures now\" and I went \"Oh. That's cool.\" And I bought them. And so for years I thought pewter was an alloy of silver and I wrote an entire book. <em>An Entire Book</em>. The whole first <em>Mistborn</em> book with silvereyes and pewterarms until it went to my beta readers and like \"There's almost no silver in pewter Brandon, you don't even really need it. Everything in this magic system works except that.\" and I went \"Well maybe we can just pretend in this world pewter--\" \"No that's stupid\" *laughter* So I had to change it to tin which is actually what you find in pewter. To this day my assistant Peter, who is my continuity editor, came to me and said \"You realize you wrote silvereye instead of tineye in the newest <em>Mistborn</em> book that you just finished? It's been ten years Brandon get over it.\" *laughter* Still happens.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["allomancy","revision","silver story irl", "silver"]
+    },
+    {
+        "id": 1274,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "epics",
+            "reckoners"
+        ],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>All the people with powers fit into one category.</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>All the people with powers fit into one category? Yes.</p>"
+            },
+            {
+                "speaker": "Questioner",
+                "text": "<p>Was there a reason you chose to do that?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Was there a reason I chose to do that? Well, I'm not sure if I can answer that... So I assume you're asking-- The original premise for <em>Steelheart</em> was that everyone who has superpowers is evil.</p>"
+            },
+            {
+                "speaker": "Questioner",
+                "text": "<p>Yes.</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>And that is just the original premise so that is not a spoiler. In my-- The reason I came up with the series is I wanted to tell a story about a world where Superman was not there to save you, or what not. Where it was \"what if people started gaining these powers and did terrible things with them\". When I was touring for the first book I told people the story of how I came up with that, I imagined-- when someone cut me off in traffic I imagined blowing their car up and feeling very satisfied and like \"Yeah\" and then feeling really guilty because I'm like \"Is that really what I'd do with superpowers? Oh... Well I better write a book about it.\" *laughter* It's what authors do, anything that makes us think, or makes us have strong emotion, we're like \"Well that's going in a book\". And so it was an intentional choice, it was the whole premise and concept for me. And then the question became did the powers corrupt, or did only evil people get them, or what's going on. And that is one of the primary questions going on in the first book. They've mostly kind of drilled down to an answer by the second book.</p>"
+            }
+        ],
+        "note": "",
+        "rafo": false,
+        "topics": ["reckoners","not cosmere"]
+    },
+    {
+        "id": 1282,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "cosmere sequence"
+        ],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>I heard a rumor that the universes of all your books are interconnected?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Yes. Most of my books, not all of them. If a book mentions Earth, it is not connected to what I call the cosmere, I kind of made this decision early on. So for those of you who don't know, my epic fantasies are indeed all connected. There are characters who cross over between them. I've been planning this for twenty years so I've got this intricate thing going on. There <em>will</em> eventually be big crossover books but for right now I don't want people to feel like they have to read everything in order to understand what's going on, and so for right now each of the books are only cameos. But you will be able to notice characters crossing between and there will be big crossover books eventually.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["cosmere","interconnected", "worlds", "not earth"]
+        
+
+    },
+    {
+        "id": 1271,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "writing"
+        ],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>I was wondering if you could talk a little about expletives and blasphemy?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>*amusedly* Expletives and blasphemy... So, It's really interesting, one of the first things that I think about when I'm coming up with a fantasy world is \"How would they-- How do they curse?\". And I don't know why this happens to me, but it feels like you can build out and extrapolate a lot about a culture from what they curse by, and how they curse. And it's become a thing. Like in one of my short stories I did I used *stumbles over words* saying \"hell take you\" to someone was a compliment because they didn't want to go to heaven because there was a god-king they hated. They were like \"We don't want to go where <em>he</em> is so hell must be the better place\". Which was a lot of fun to me in coming up with that. Or other ones I have them curse by in-world and sometimes I just use the biblical curses, the damns and hells and things like that. Why do I use those? I use those in <em>Mistborn</em> because I was writing about a bunch of thieves living on the streets and when I tried to use kind-of more fantasy-ish curse words it just felt fake for them. And yet it didn't feel fake when I started using \"Merciful Domi\" in <em>Elantris</em> because the religion of that world was so important to all the people that they would use the name of their own deity.So this is just something I kind of dance around and it's very interesting to me being a religious person myself. I will sometimes never-- like I don't use the curses that my characters will, but I'm not my characters and things like this. So it's something I think about, perhaps way too much, is how are the people going to curse in these books. That's a very good question.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["writing"]
+    },
+    {
+        "id": 1275,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "david charleston",
+            "writing"
+        ],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>How do you choose ages for your characters and how often does that change throughout the writing process?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>How do I choose ages for my characters and how often does that change the writing process. I choose my characters... It's really hard to talk about. Because I can really drill down into how I come up with settings, so magic systems and things, and I can talk a lot about how I plot and why I plot. Character is the one that I discovery write. Writers tend to fall somewhere on this spectrum generally between what we call discovery writers and we call outliners, and I'm mostly an outliner. I like a nice tight outline, I like to know where I'm going and what's going on in my world before I start writing. But I found that I have to free write my characters, I have to figure out who they are as I write. Otherwise this outline is going to be too restrictive and I'm going to end up with characters who feel wooden. And I think that's the real risk of outlining too much, is writing the life out of your characters. And so the ages do change, and the personalities change. The famous one is <em>Mistborn</em>, which stars a sixteen year old girl named Vin, she was a boy in the first chapter I tried to write of that. And then that didn't work so I tried a girl with a different personality and that didn't work either. So it was the third try where it's like I'm having people walk in and and try casting calls and seeing who works. And that's generally how I go about it.</p>\n<p>With <em>Steelheart</em> the character didn't click for me, and I was really worried about that. Like the prologue worked wonderfully and I wrote the prologue separately, I wrote it years before I went back to the book. Because I just had that prologue pop into my head and I wrote it out. So if you read <em>Steelheart</em> the prologue is like 5,000 words, it's huge, it's like twenty pages or something like that. It may not be that long, but it's a big chunk. It was the first thing that I did, and then I put the book aside. And I was really worried when I started writing that I didn't have a voice for the character, because the prologue takes place ten years before when the main character is a child. So I started writing and it didn't work, and I started writing again and it didn't work, and the thing that ended up working, this is the silliest thing, but it was when I wrote a metaphor that was really bad, a simile, right? And I'm like \"Oh that's stupid\" because that's what normally happens. That's what you do when you are writing, you come up with something and go \"Why did I write that, it's dumb?\" and you delete it. And this time I started to delete it and thought \"What if I ran with that?\" So I started running with it and this character grew out of the fact that he makes bad metaphors. And that's just a simple trope, a simple thing, but it grew into an entire personality. This is a person who is really earnest, trying really, really hard. They <em>are</em> smart, they are putting things together, but they just don't think the same way that everyone else does and they are a little bit befuddled by things. It's like they are trying a little too hard. Ironically-- Or I guess coincidentally, not ironically, the metaphor of writing bad metaphors became what grew into the personality for David. His entire personality grew out of this idea of someone who is trying so hard, and you just love him because he is trying so hard but sometimes he just faceplants. And my children do this. Like I remember my child when he was five years old and he was running toward me so excited, telling me about something and this thing that he had in his hand and there was a pole in front of him but the thing was so important. And he smacked right into and fell right back over just stunned. Like \"Who put this pole in front of me?\" *laughter* It was at our house, it's not like he didn't know there was a pole there, right? He was just so excited by this thing Dad, this thing! And that was where David came from.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["writing"]
+    },
+    {
+        "id": 1272,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>Would you rather be a Misting or a Mistborn?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Would I rather be a Misting or a Mistborn? Would I rather have one power or ALL THE POWERS?!? *laughter* I'm going to pick all the powers...</p>"
+            },
+            {
+                "speaker": "Questioner",
+                "text": "<p>What if you have to be a Misting?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>What if I had to be a Misting? Coinshot, so I can jump around and fly. I should pick like Thug so I can be tough and people can punch me and I'd be \"haha\" or whatever but really I just want to be jumping around, flying off of cars and things.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["personal question", "would you rather be"]
+    },
+    {
+        "id": 1273,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>Is there a word that you made up that's a favorite word of yours?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>I still find occasionally find myself, curse-wise, saying \"Merciful Domi\", which is from my first one. Otherwise there are lots of interesting words, lately I've put the word \"Catacendre\" into the <em>Alloy of Law</em> era to mean the end of the ash. And I like how that flows with kind of almost a psuedo-Latin on it and things like that. And so, Catacendre, that's my favorite lately, but I've been working on those books a lot.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["favorites cosmere words"]
+    },
+    {
+        "id": 1310,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>So do you ever put a page length limit on yourself?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>I don't, but I know by gut generally after I start writing how long a book feels.</p>"
+            },
+            {
+                "speaker": "Questioner",
+                "text": "<p>Does the publisher ever put any limits on you?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>No, they actually haven't. They do ask me if I'll write them shorter, but it's always an ask, and I usually ignore them. In fact, <i>Words of Radiance</i> is the largest book they can physically print with their printer, but the font is not the smallest font they could do yet. So I could actually get about another 100,000 words longer before it gets unreadable.</p>"
+            },
+            {
+                "speaker": "Questioner",
+                "text": "<p>So by the time we get to <i>Stormlight</i> 6 or 7, they'll have to go buy a new printer?</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Yeah, I've warned them. I will write it at the length that feels right.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["writing","logistics", "publisher", "books", "page lenght"]
+    },
+     {
+        "id": 1284,
+        "event": 61,
+        "event_name": "Firefight Seattle UBooks signing",
+        "event_date": "2015-01-06",
+        "event_state": "N/A",
+        "date": "2015-01-06",
+        "paraphrased": false,
+        "modified_date": "2018-01-31T19:20:31.158393Z",
+        "tags": [
+            "mistborn era 1",
+            "writing"
+        ],
+        "lines": [
+            {
+                "speaker": "Questioner",
+                "text": "<p>How do you come up with the languages? Just because it sounds cool, or...</p>"
+            },
+            {
+                "speaker": "Brandon Sanderson",
+                "text": "<p>Languages. So languages in my books, I have a couple of tools that I use and it depends on the book. For some books I just use kind of shortcuts. <em>Mistborn</em> is an example of this, there's only one language that everyone is speaking and there is a little bit of Terris, so for that I just made every region-- I based off of an Earth language and used that. Like for instance the Central Dominance is French, so Vin and Demoux--and they would say Kelsi-ay--and things like this is where the names came from. For something more intricate like <em>Stormlight Archive</em>, I did take linguistics classes, I only snuck into a few of those. And so I'm able to drill down and do some real linguistics. And so I know what I want things to sound like, I know how I want them to feel. And I have all sorts of goofy things that you would even need to know, like for instance they would say \"Kholin\" instead of Kholin and stuff like this because there's a little bit of Semitic, the language family I'm using as a basis. And then there's stuff like the symmetrical names and stuff like that. Anyway, I can talk about that forever but the answer is yes I find what's cool but sometimes it's really academically cool and sometimes it really puts people of. Like one of the first reviews I got from <em>Elantris</em> was like \"These names are really hard to pronounce and kind of dumb\" and this was like one of the major review magazines \"I can't get into these names\" because I had used lots of linguistic things from my time living in Korea to create the languages, and they were kind of hard to say. It's part of why in <em>Mistborn</em> everyone has a nickname that's easy to remember.</p>"
+            }
+        ],
+        "note": "",
+        "rafo":false,
+        "topics":["writing", "cosmere", "languages", "mistborn","linguistics"]
+    }
+  
+]
