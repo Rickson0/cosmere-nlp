@@ -1,2 +1,9 @@
-polars scikit-learn request json nltk marimo
-spacy seaborn matplotlib pyyaml
+polars
+scikit-learn
+requests 
+nltk 
+marimo 
+spacy 
+seaborn 
+matplotlib 
+pyyaml
