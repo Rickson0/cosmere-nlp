@@ -1,30 +1,55 @@
 shards:
- - name: Devotion
-   aliases: [Aona]
- - name: Preservation
-   aliases: [Leras, Sazed]
- - name: Dominion
-   aliases: [Skai]
- - name: Ruin
-   aliases: [Ati]
- - name: Odium
-   aliases: [Rayse, Taravangian]
- - name: Cultivation
-   aliases: [Koravellium Avast]
- - name: Honor
-   aliases: [Taravangian, Dalinar Kholin, Tanavast]
- - name: Endowment
-   aliases: [Edgli]
- - name: Autonomy
-   aliases: [Bavadin, Trell]
- - name: Invention
-   aliases: [Chan Ko Sar]
- - name: Mercy
- - name: whimsy
- - name: Virtuosity
- - name: Reason
-   aliases: [Euridrius]
- - name: Harmony
-   aliases: [Sazed]
- - name: Retribution
-   aliases: [Taravangian]
+  - name: Devotion
+    aliases: [Aona]
+  - name: Preservation
+    aliases: [Leras, Sazed]
+  - name: Dominion
+    aliases: [Skai]
+  - name: Ruin
+    aliases: [Ati]
+  - name: Odium
+    aliases: [Rayse, Taravangian]
+  - name: Cultivation
+    aliases: [Koravellium Avast]
+  - name: Honor
+    aliases: [Taravangian, Dalinar Kholin, Tanavast]
+  - name: Endowment
+    aliases: [Edgli]
+  - name: Autonomy
+    aliases: [Bavadin, Trell]
+  - name: Invention
+    aliases: [Chan Ko Sar]
+  - name: Mercy
+  - name: whimsy
+  - name: Virtuosity
+  - name: Reason
+    aliases: [Euridrius]
+  - name: Harmony
+    aliases: [Sazed]
+  - name: Retribution
+    aliases: [Taravangian]
+planets:
+  - name: Canticle
+  - name: Dhatri
+  - name: First of the Sun
+  - name: Grand Apparatus
+  - name: Lumar
+  - name: Miral
+  - name: Nalthis
+  - name: Scadrial
+  - name: Sel
+  - name: Taldain
+  - name: Threnody
+  - name: Roshar
+  - name: Braize
+  - name: Ashyn
+  - name: UTol
+  - name: Komashi
+  - name: Yolen
+  - name: Bjendal
+  - name: Jasper
+  - name: Mythos
+  - name: Obrodai
+  - name: Rellam
+  - name: Vax
+  - name: Zidorna
