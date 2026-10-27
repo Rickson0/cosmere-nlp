@@ -53,3 +53,20 @@ planets:
   - name: Rellam
   - name: Vax
   - name: Zidorna
+magic_system:
+  - name: Allomancy
+  - name: Feruchemy
+  - name: Hemalurgy
+  - name: Surgebinding
+  - name: AonDor
+  - name: Awakening
+  - name: Forgery
+  - name: Sand Mastery
+  - name: Hion
+  - name: Bloodsealing
+  - name: Aether
+  - name: Dakhor
+  - name: Fabrial
+  - name: Voidbinding
+  - name: Microkinesis
+  - name: Yolish Lightweaving
