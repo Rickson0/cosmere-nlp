@@ -1,10 +1,6 @@
 import yaml, re
 from pathlib import Path
 
-
-def load_ontology(path="data/ontology/entities.yaml"):
-    with open(path) as f:
-        return yaml.safe_load(f)
     
 def build_gazetteer(ontology):
     gaz = {}
@@ -15,8 +11,7 @@ def build_gazetteer(ontology):
             for alias in [name] + aliases:
                 gaz[alias.lower()] = (category, name)
     return gaz
-    
-    
+       
 def tag_text(text, gezetteer):
     text_lower = text.lower()
     tags = set()
@@ -27,7 +22,4 @@ def tag_text(text, gezetteer):
 
 
 
-ontology = load_ontology()
-gaz = build_gazetteer(ontology)
-text = "Would Nicrosil Compounding work with Hemalurgy on Scadrial?"
-print(tag_text(text, gaz))
+
