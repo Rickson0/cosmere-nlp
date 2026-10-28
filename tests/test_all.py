@@ -18,5 +18,7 @@ for w in raw[:10]:
         "entities":   list(tag_text(full)),
         "conv_type":  classify_conversation(q),
         "intent":     classify_intent(b),
+        "question": q,
+        "brandon": b,
         "has_rafo_tag": "rafo" in w.get("tags", []) or "rafo-plus" in w.get("tags", []),
     })

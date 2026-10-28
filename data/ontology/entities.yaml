@@ -73,6 +73,7 @@ magic_system:
   - name: Microkinesis
   - name: Yolish Lightweaving
   - name: Witchcraft
+  - name: Fire Magic
 metals:
  - name: atium
  - name: lerassium
@@ -135,7 +136,24 @@ concepts:
  - name: Luhel Bond
  - name: Zuhel Bond
  - name: Shardpool
- 
+ - name: Vessel
+   aliases: [Shardholder]
+ - name: Avatar
+   aliases: [Shard Avatar]
+ - name: Aetherbound
+   aliases: [Aetherbound]
+ - name: Primal Aether
+   aliases: [Primal Aethers]
+ - name: Physical Realm
+   aliases: [Realm of Matter]
+ - name: Cognitive Realm
+   aliases: [Realm of Thought, Shadesmar]
+ - name: Spiritual Realm
+   aliases: [Realm of Souls, Essence]
+ - name: Shardworld
+   aliases: [Shardworlds]
+ - name: Megalith
+ - name: Beautiful
 character:
  - name: Hoid
    aliases: [Wit, Cephandrius, Midius, Dust]
@@ -211,4 +229,48 @@ character:
  - name: Elend
    aliases: ["Elend", "King of Luthadel", "Emperor"]
  - name: Shai
-   aliases: ["Moonlight", "Sh"]
+   aliases: ["Moonlight"]
+books:
+  - name: "Mistborn: The Final Empire"
+    aliases: ["Mistborn #1", "The Final Empire"]
+  - name: The Well of Ascension
+    aliases: ["Mistborn #2"]
+  - name: The Hero of Ages
+    aliases: ["Mistborn #3"]
+  - name: The Alloy of Law
+    aliases: ["Mistborn #4"]
+  - name: Shadows of Self
+    aliases: ["Mistborn #5"]
+  - name: The Bands of Mourning
+    aliases: ["Mistborn #6"]
+  - name: The Lost Metal
+    aliases: ["Mistborn #7"]
+  - name: Elantris
+    aliases: ["Elantris #1"]
+  - name: The Emperor's Soul
+    aliases: ["Elantris novella"]
+  - name: Warbreaker
+  - name: The Way of Kings
+    aliases: ["Stormlight #1"]
+  - name: Words of Radiance
+    aliases: ["Stormlight #2"]
+  - name: Oathbringer
+    aliases: ["Stormlight #3"]
+  - name: Rhythm of War
+    aliases: ["Stormlight #4"]
+  - name: Wind and Truth
+    aliases: ["Stormlight #5"]
+  - name: White Sand
+    aliases: ["White Sand Vol. 1–3"]
+  - name: Arcanum Unbounded
+    aliases: ["Arcanum Unbounded: The Cosmere Collection"]
+  - name: Sixth of the Dusk
+    aliases: ["Sixth of the Dusk (novella)"]
+  - name: Shadows for Silence in the Forests of Hell
+    aliases: ["Shadows for Silence (novella)"]
+  - name: Tress of the Emerald Sea
+  - name: Yumi and the Nightmare Painter
+  - name: The Sunlit Man
+  - name: Isles of the Emberdark
+  - name: The Fires of December
+

@@ -8,8 +8,6 @@ def load_entities():
     return load_ontology("data/ontology/entities.yaml")
 def load_intents():
     data = load_ontology("data/ontology/intents.yaml")
-    if isinstance(data, dict):
-        return data.get("intent_labels", [])
     return data
 def load_conversation_types():
-    return load_ontology("data/ontology/conversation_types.yaml")["conversation_types"]
+    return load_ontology("data/ontology/conversation_types.yaml")

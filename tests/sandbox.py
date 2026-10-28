@@ -1,1 +1,0 @@
-from src.util.ontology_loader import load_ontology
