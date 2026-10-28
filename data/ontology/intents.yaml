@@ -1,0 +1,31 @@
+intent_labels:
+  - name: RAFO
+    patterns:
+      - "RAFO"
+      - "Read And Find Out"
+      - "you'll have to read and find out"
+      - "that's a RAFO"
+  - name: EVASIVE
+    patterns:
+      - "I'm not going to answer"
+      - "I'll leave that for the books"
+      - "that's a good question"
+  - name: CONFIRMED
+    patterns:
+      - "yes"
+      - "correct"
+      - "that's right"
+  - name: DENIED
+    patterns:
+      - "no"
+      - "not quite"
+      - "incorrect"
+  - name: ANNOTATION
+    patterns:
+      - "I'll note that"
+      - "that's interesting"
+      - "I hadn't thought of that"
+  - name: JOKE
+    patterns:
+      - "laughs"
+      - "jokingly"

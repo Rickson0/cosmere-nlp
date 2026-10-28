@@ -23,6 +23,7 @@ shards:
   - name: whimsy
   - name: Virtuosity
   - name: Reason
+  - name: Valor
     aliases: [Euridrius]
   - name: Harmony
     aliases: [Sazed]
@@ -53,6 +54,7 @@ planets:
   - name: Rellam
   - name: Vax
   - name: Zidorna
+  - name: Silverlight
 magic_system:
   - name: Allomancy
   - name: Feruchemy
@@ -64,9 +66,140 @@ magic_system:
   - name: Sand Mastery
   - name: Hion
   - name: Bloodsealing
-  - name: Aether
+  - name: Aetherbound
   - name: Dakhor
   - name: Fabrial
   - name: Voidbinding
   - name: Microkinesis
   - name: Yolish Lightweaving
+  - name: Witchcraft
+metals:
+ - name: atium
+ - name: lerassium
+ - name: harmonium
+   aliases: [ettmetal]
+ - name: raysium
+ - name: tanavastium
+ - name: nicrosil
+ - name: aluminum
+ - name: duralumin
+ - name: bendalloy
+ - name: cadmium
+ - name: brass
+ - name: bronze
+ - name: chromium
+ - name: copper
+ - name: dragonsteel
+ - name: electrum
+ - name: gold
+ - name: iron
+ - name: malatium
+ - name: pewter
+ - name: silver
+ - name: steel
+ - name: tin
+ - name: Trellium
+   aliases: [bavadium]
+ - name: zinc
+concepts:
+ - name: Investiture
+ - name: Identity
+ - name: Connection
+ - name: Fortune
+ - name: Realmatic Theory
+ - name: Cognitive Shadow
+ - name: Sliver 
+ - name: Dawnshard
+ - name: Anti-Investiture
+ - name: Negative Investiture
+ - name: Unkeyed Investiture
+ - name: Heightening
+ - name: Compounding
+ - name: The Dor
+   aliases: [Dor]
+ - name: Adolnasium
+ - name: Shattering
+ - name: Splinter
+ - name: Aether
+ - name: Invested Art
+ - name: Intent
+ - name: Spiritweb
+ - name: Axon
+ - name: Perpendicularity
+ - name: Worldhopper
+ - name: Initiation
+ - name: Resonance
+character:
+ - name: Hoid
+   aliases: [Wit, Cephandrius, Midius, Dust]
+ - name: Kelsier
+   aliases: [Thaidakar, Survivor]
+ - name: Vasher
+   aliases: [Zahel, Kalad, Warbreaker, Peacegiver, Strifelover, Tax, Talaxin, Prophet]
+ - name: December
+   aliases: []
+ - name: Beautiful
+ - name: Amaal
+ - name: Abrim Flint
+   aliases: [Flint]
+ - name: Tamantha
+ - name: Vin Venture
+   aliases: [Valette Renoux, Lady Heir, The Ascendant Warrior, Vin]
+ - name: Sazed
+   aliases: [Harmony, Discord, The Hero of Ages]
+ - name: Waxillium Ladrian
+   aliases: [Wax]
+ - name: Wayne
+ - name: Kaladin Stormblessed
+   aliases: [Captain Kaladin, Highmarshal, Stormblessed, Kal, Wind, Herald of Wind]
+ - name: Dalinar Kholin
+   aliases: [The Blackthorn, Highprince of War, Unity]
+ - name: Shallan Davar
+   aliases: [Veil, Radiant, Swiftspren]
+ - name: Szeth
+   aliases: [Szeth-son-son-Vallano,The Assassin in White, Truthless of Shinovar, Truth, Knight of Truth]
+ - name: Jasnah Kholin
+   aliases: [Queen Jasnah, Brightness Kholin]
+ - name: Taravangian
+   aliases: [Mr. T, The King of Karbranth, Odium, Retribuition]
+ - name: Raoden
+   aliases: [Spirit, King Raoden]
+ - name: Sarene
+   aliases: [Empress Sarene]
+ - name: Hrathen
+   aliases: [Gyorn Hrathen]
+ - name: Siri
+   aliases: [Sisirinah, Vessel of the God King, Queen Siri]
+ - name: Denth
+ - name: Llarimar
+ - name: Bluefingers
+ - name: Nightblood
+   aliases: [Sword-nimi, Black Sword, Destroyer of Evil]
+ - name: Blushweaver
+ - name: Lightsong
+ - name: Vivenna
+   aliases: [Azure, High Judge]
+ - name: Susebron
+   aliases: [God King]
+ - name: Khriss
+   aliases: [Khrissalla]
+ - name: Tress
+   aliases: [Spress, Glorf]
+ - name: Charlie
+   aliases: [The Sorcerer's Apprentice]
+ - name: Yumi
+   aliases: [Yoki-hijo]
+ - name: Nikaro
+   aliases: [Painter]
+ - name: Kenton
+   aliases: [Lord Mastrell]
+ - name: Khrissalla
+   aliases: [Khriss, Author of the Arcanum Unbounded]
+ - name: Sixth of the Dusk
+   aliases: [Dusk, The Trapper]
+ - name: Illistandrista
+   aliases: [Starling]
+ - name: Sak
+   aliases: [Aviar Companion]
+ - name: Vathi 
+   aliases: [President Vathi]
