@@ -1,0 +1,70 @@
+conversation_types:
+  - name: cosmere_lore
+    description: "Perguntas sobre mecânicas, personagens, planetas, magia"
+    patterns:
+      - "Investiture"
+      - "Shard"
+      - "Allomancy"
+      - "Hemalurgy"
+      - "Radiant"
+      - "worldhopper"
+      - "Realmatic"
+
+  - name: writing_craft
+    description: "Perguntas sobre processo de escrita, técnica, inspiração"
+    patterns:
+      - "how do you write"
+      - "writing process"
+      - "outline"
+      - "revision"
+      - "writer's block"
+      - "pantser"
+      - "plotter"
+      - "POV"
+
+  - name: publishing
+    description: "Datas, edições, contratos, editoras, audiobooks"
+    patterns:
+      - "release date"
+      - "when is"
+      - "come out"
+      - "audiobook"
+      - "Tor"
+      - "Dragonsteel"
+      - "edition"
+      - "translation"
+
+  - name: personal_life
+    description: "Vida pessoal, família, religião, hobbies"
+    patterns:
+      - "your wife"
+      - "your kids"
+      - "BYU"
+      - "mission"
+      - "Mormon"
+      - "LDS"
+      - "church"
+      - "family"
+
+  - name: career_advice
+    description: "Conselhos para escritores iniciantes"
+    patterns:
+      - "advice for"
+      - "aspiring writer"
+      - "how do I get published"
+      - "should I"
+      - "any tips"
+
+  - name: opinions
+    description: "Opiniões sobre outros autores, gênero, adaptações, filmes"
+    patterns:
+      - "what do you think"
+      - "favorite book"
+      - "favorite author"
+      - "movie"
+      - "adaptation"
+      - "TV show"
+
+  - name: other
+    description: "Nada acima"
+    patterns: []

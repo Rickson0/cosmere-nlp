@@ -127,8 +127,15 @@ concepts:
  - name: Axon
  - name: Perpendicularity
  - name: Worldhopper
+ - name: worldhop
+ - name: wordhopping
  - name: Initiation
  - name: Resonance
+ - name: Nahel Bond
+ - name: Luhel Bond
+ - name: Zuhel Bond
+ - name: Shardpool
+ 
 character:
  - name: Hoid
    aliases: [Wit, Cephandrius, Midius, Dust]
@@ -137,8 +144,6 @@ character:
  - name: Vasher
    aliases: [Zahel, Kalad, Warbreaker, Peacegiver, Strifelover, Tax, Talaxin, Prophet]
  - name: December
-   aliases: []
- - name: Beautiful
  - name: Amaal
  - name: Abrim Flint
    aliases: [Flint]
@@ -203,3 +208,7 @@ character:
    aliases: [Aviar Companion]
  - name: Vathi 
    aliases: [President Vathi]
+ - name: Elend
+   aliases: ["Elend", "King of Luthadel", "Emperor"]
+ - name: Shai
+   aliases: ["Moonlight", "Sh"]

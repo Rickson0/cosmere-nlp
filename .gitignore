@@ -1,5 +1,5 @@
 .venv
 data/raw
 data/processed/*.parquet
-src/util/__pycache__
+__pycache__
 

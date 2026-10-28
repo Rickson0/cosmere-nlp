@@ -1,6 +1,14 @@
 import yaml, re
 from pathlib import Path
+from src.util.ontology_loader import load_entities
 
+
+# src/preprocessing/tag_entities.py
+COMMON_WORD_ALIASES = {
+    "beautiful", "reason", "will", "may", "grace", "hope",
+    "faith", "valor", "mercy", "invention", "whimsy",
+    "dominion", "devotion", "ambition", "endowment",
+}
     
 def build_gazetteer(ontology):
     gaz = {}
@@ -12,7 +20,8 @@ def build_gazetteer(ontology):
                 gaz[alias.lower()] = (category, name)
     return gaz
        
-def tag_text(text, gezetteer):
+def tag_text(text):
+    gezetteer = build_gazetteer(load_entities())
     text_lower = text.lower()
     tags = set()
     for alias, (category, name) in gezetteer.items():
