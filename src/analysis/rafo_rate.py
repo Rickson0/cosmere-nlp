@@ -4,15 +4,11 @@ from src.preprocessing.intent_classifier import classify_intent
 
 
 def is_rafo(answer_text):
-    """Wrapper: retorna True se classify_intent incluir 'rafo'."""
     return "rafo" in classify_intent(answer_text)
 
 
 def evaluate_against_gold(gold_path, wobs_path):
-    """
-    Valida o classificador contra o gold set manual.
-    Retorna métricas + lista de erros para inspeção.
-    """
+   
     gold = json.load(open(gold_path))
     gold_by_id = {g["id"]: g["rafo"] for g in gold}
 
@@ -56,12 +52,7 @@ def evaluate_against_gold(gold_path, wobs_path):
 
 
 def evaluate_on_corpus(wobs_path):
-    """
-    Roda no corpus inteiro e retorna:
-    - distribuição de intent
-    - taxa de RAFO global
-    - top entidades (opcional, se você quiser passar o gazetteer)
-    """
+   
     from collections import Counter
 
     data = json.load(open(wobs_path))

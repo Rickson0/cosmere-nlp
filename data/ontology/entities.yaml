@@ -1,18 +1,21 @@
+
 shards:
   - name: Devotion
     aliases: [Aona]
   - name: Preservation
-    aliases: [Leras, Sazed]
+    aliases: [Leras]
   - name: Dominion
     aliases: [Skai]
   - name: Ruin
     aliases: [Ati]
   - name: Odium
-    aliases: [Rayse, Taravangian]
+    aliases: [Rayse]
+    # Taravangian vai para Retribution (Vessel atual)
   - name: Cultivation
-    aliases: [Koravellium Avast]
+    aliases: [Koravellium Avast, Koravellium]
   - name: Honor
-    aliases: [Taravangian, Dalinar Kholin, Tanavast]
+    aliases: [Tanavast, Dalinar Kholin, Dalinar]
+    # Dalinar é Vessel atual
   - name: Endowment
     aliases: [Edgli]
   - name: Autonomy
@@ -20,15 +23,19 @@ shards:
   - name: Invention
     aliases: [Chan Ko Sar]
   - name: Mercy
-  - name: whimsy
+    requires_capitalization: true
+  - name: Whimsy
+    requires_capitalization: true
   - name: Virtuosity
   - name: Reason
-  - name: Valor
     aliases: [Euridrius]
+    requires_capitalization: true
+  - name: Valor
   - name: Harmony
-    aliases: [Sazed]
+    aliases: [Sazed, Discord, Hero of Ages]
   - name: Retribution
-    aliases: [Taravangian]
+    aliases: [Taravangian, Mr. T]
+
 planets:
   - name: Canticle
   - name: Dhatri
@@ -55,184 +62,256 @@ planets:
   - name: Vax
   - name: Zidorna
   - name: Silverlight
+
 magic_system:
   - name: Allomancy
+    aliases: [Allomantic, Allomancer, Allomancers, Misting, Mistings, Mistborn, Mistborns]
+    proxies: [burn, burns, burning, burned, flare, flares, flaring, metal reserve, metal reserves,
+              seek, seeking, smoked, smoking, soothe, soothing, riot, rioting]
   - name: Feruchemy
+    aliases: [Feruchemical, Feruchemist, Feruchemists, Ferring, Ferrings, Feruchemically]
+    proxies: [metalmind, metalminds, coppermind, copperminds, unkeyed metalmind,
+              unkeyed metalminds, fill, filling, tap, tapping, stored attribute, store attribute]
   - name: Hemalurgy
+    aliases: [Hemalurgic, Hemalurgist, Hemalurgists, Hemalurgically]
+    proxies: [spike, spikes, spiked, spiking, bind point, bind points, bindpoint, bindpoints,
+              hemalurgic spike, hemalurgic spikes, stapled, staple, staples, bloodseal, bloodsealing]
   - name: Surgebinding
+    aliases: [Surgebinder, Surgebinders, Surge, Surges, Radiant, Radiants, Knight Radiant,
+              Knights Radiant, Windrunner, Windrunners, Skybreaker, Skybreakers,
+              Edgedancer, Edgedancers, Truthwatcher, Truthwatchers,
+              Lightweaver, Lightweavers, Elsecaller, Elsecallers,
+              Willshaper, Willshapers, Stoneward, Stonewards,
+              Dustbringer, Dustbringers, Bondsmith, Bondsmiths]
+    proxies: [spren, sprens, ideal, ideals, oath, oaths]
   - name: AonDor
+    aliases: [Aon, Aons, Elantrian, Elantrians, Shaod]
+    proxies: [dor, aondor]
   - name: Awakening
+    aliases: [Awakener, Awakeners, Awakened, Awakening]
+    proxies: [command, commands, lifeless, breath, breaths]
+    # "command" e "breath" são ambíguos — considerar requires_context
   - name: Forgery
+    aliases: [Forger, Forgers, Forged, Forgery]
+    proxies: [soulstamp, soulstamps, soulstamped]
   - name: Sand Mastery
+    aliases: [Sand Master, Sand Masters, Sandmaster, Sandmasters]
   - name: Hion
+    aliases: [Hion Viewer, Hion Viewers]
   - name: Bloodsealing
+    aliases: [Bloodsealer, Bloodsealers]
   - name: Aetherbound
+    aliases: [Aetherbound, Aetherbonds]
   - name: Dakhor
+    aliases: [Dakhor Monk, Dakhor Monks]
   - name: Fabrial
+    aliases: [Fabrials]
   - name: Voidbinding
   - name: Microkinesis
   - name: Yolish Lightweaving
+    aliases: [Yolish Lightweaver, Yolish Lightweaving, Lightweaving]
   - name: Witchcraft
   - name: Fire Magic
+
 metals:
- - name: atium
- - name: lerassium
- - name: harmonium
-   aliases: [ettmetal]
- - name: raysium
- - name: tanavastium
- - name: nicrosil
- - name: aluminum
- - name: duralumin
- - name: bendalloy
- - name: cadmium
- - name: brass
- - name: bronze
- - name: chromium
- - name: copper
- - name: dragonsteel
- - name: electrum
- - name: gold
- - name: iron
- - name: malatium
- - name: pewter
- - name: silver
- - name: steel
- - name: tin
- - name: Trellium
-   aliases: [bavadium]
- - name: zinc
+  - name: atium
+  - name: lerasium
+  - name: harmonium
+    aliases: [ettmetal]
+  - name: raysium
+  - name: tanavastium
+  - name: nicrosil
+  - name: aluminum
+  - name: duralumin
+  - name: bendalloy
+  - name: cadmium
+  - name: brass
+  - name: bronze
+  - name: chromium
+  - name: copper
+  - name: dragonsteel
+  - name: electrum
+  - name: gold
+  - name: iron
+  - name: malatium
+  - name: pewter
+  - name: silver
+  - name: steel
+  - name: tin
+  - name: trellium
+    aliases: [bavadium]
+  - name: zinc
+
 concepts:
- - name: Investiture
- - name: Identity
- - name: Connection
- - name: Fortune
- - name: Realmatic Theory
- - name: Cognitive Shadow
- - name: Sliver 
- - name: Dawnshard
- - name: Anti-Investiture
- - name: Negative Investiture
- - name: Unkeyed Investiture
- - name: Heightening
- - name: Compounding
- - name: The Dor
-   aliases: [Dor]
- - name: Adolnasium
- - name: Shattering
- - name: Splinter
- - name: Aether
- - name: Invested Art
- - name: Intent
- - name: Spiritweb
- - name: Axon
- - name: Perpendicularity
- - name: Worldhopper
- - name: worldhop
- - name: wordhopping
- - name: Initiation
- - name: Resonance
- - name: Nahel Bond
- - name: Luhel Bond
- - name: Zuhel Bond
- - name: Shardpool
- - name: Vessel
-   aliases: [Shardholder]
- - name: Avatar
-   aliases: [Shard Avatar]
- - name: Aetherbound
-   aliases: [Aetherbound]
- - name: Primal Aether
-   aliases: [Primal Aethers]
- - name: Physical Realm
-   aliases: [Realm of Matter]
- - name: Cognitive Realm
-   aliases: [Realm of Thought, Shadesmar]
- - name: Spiritual Realm
-   aliases: [Realm of Souls, Essence]
- - name: Shardworld
-   aliases: [Shardworlds]
- - name: Megalith
- - name: Beautiful
+  - name: Investiture
+    aliases: [Invested, Invest, Investing, Kinetic Investiture, Innate Investiture,
+              Static Investiture, Investidura]
+    proxies: [invested art, invested arts, kinetic investiture, innate investiture]
+  - name: Identity
+    requires_capitalization: true
+    aliases: [spiritual identity]
+  - name: Connection
+    requires_capitalization: true
+    aliases: [spiritual connection, Connections]
+  - name: Fortune
+    requires_capitalization: true
+    aliases: [spiritual fortune]
+  - name: Realmatic Theory
+    aliases: [Realmatic, Realmatica, Realmaticist, Realmaticists]
+  - name: Cognitive Shadow
+    aliases: [Cognitive Shadows, cognitive shadow, cognitive shadows]
+  - name: Sliver
+    aliases: [Slivers]
+  - name: Dawnshard
+    aliases: [Dawnshards]
+    proxies: [primal command, primal commands]
+  - name: Anti-Investiture
+    aliases: [anti-investiture, antiinvestiture, Anti-Investidura]
+  - name: Negative Investiture
+    aliases: [negative investiture, negative-investiture]
+  - name: Unkeyed Investiture
+    aliases: [unkeyed investiture, unkeyed light]
+  - name: Heightening
+    aliases: [Heightenings, Heightened]
+  - name: Compounding
+    aliases: [Compound, Compounds, Compounded, Compounding]
+  - name: The Dor
+    aliases: [Dor, dor]
+  - name: Adonalsium
+    aliases: [Adolnasium]
+  - name: Shattering
+    aliases: [Shatterings, Shattered, shattering, shattered]
+  - name: Splinter
+    aliases: [Splinters, Splintered, Splintering]
+  - name: Aether
+    aliases: [Aethers, aether, aethers, Ether, Ethers]
+  - name: Invested Art
+    aliases: [Invested Arts, invested art, invested arts]
+  - name: Intent
+    requires_capitalization: true
+  - name: Spiritweb
+    aliases: [spirit web, spirit webs, spiritwebs]
+  - name: Axon
+    aliases: [Axons]
+  - name: Perpendicularity
+    aliases: [Perpendicularities, perpendicularity, perpendicularities]
+  - name: Worldhopper
+    aliases: [Worldhoppers, worldhopper, worldhoppers, worldhopping, worldhop,
+              worldhops, worldhopped, Worldhopping]
+  - name: Initiation
+    aliases: [Initiations, Initiated, Initiating]
+  - name: Resonance
+    aliases: [Resonances]
+  - name: Nahel Bond
+    aliases: [Nahel Bonds, Nahel]
+  - name: Luhel Bond
+    aliases: [Luhel Bonds, Luhel]
+  - name: Zuhel Bond
+    aliases: [Zuhel Bonds, Zuhel]
+  - name: Shardpool
+    aliases: [Shardpools]
+  - name: Vessel
+    aliases: [Vessels, Shardholder, Shardholders, vessel, vessels]
+  - name: Avatar
+    aliases: [Avatars, Shard Avatar, Shard Avatars]
+  - name: Primal Aether
+    aliases: [Primal Aethers]
+  - name: Physical Realm
+    aliases: [Realm of Matter]
+  - name: Cognitive Realm
+    aliases: [Realm of Thought, Shadesmar]
+  - name: Spiritual Realm
+    aliases: [Realm of Souls, Essence]
+  - name: Shardworld
+    aliases: [Shardworlds]
+  - name: Megalith
+    aliases: [Megaliths]
+  - name: Beautiful
+    requires_capitalization: true
+
 character:
- - name: Hoid
-   aliases: [Wit, Cephandrius, Midius, Dust]
- - name: Kelsier
-   aliases: [Thaidakar, Survivor]
- - name: Vasher
-   aliases: [Zahel, Kalad, Warbreaker, Peacegiver, Strifelover, Tax, Talaxin, Prophet]
- - name: December
- - name: Amaal
- - name: Abrim Flint
-   aliases: [Flint]
- - name: Tamantha
- - name: Vin Venture
-   aliases: [Valette Renoux, Lady Heir, The Ascendant Warrior, Vin]
- - name: Sazed
-   aliases: [Harmony, Discord, The Hero of Ages]
- - name: Waxillium Ladrian
-   aliases: [Wax]
- - name: Wayne
- - name: Kaladin Stormblessed
-   aliases: [Captain Kaladin, Highmarshal, Stormblessed, Kal, Wind, Herald of Wind]
- - name: Dalinar Kholin
-   aliases: [The Blackthorn, Highprince of War, Unity]
- - name: Shallan Davar
-   aliases: [Veil, Radiant, Swiftspren]
- - name: Szeth
-   aliases: [Szeth-son-son-Vallano,The Assassin in White, Truthless of Shinovar, Truth, Knight of Truth]
- - name: Jasnah Kholin
-   aliases: [Queen Jasnah, Brightness Kholin]
- - name: Taravangian
-   aliases: [Mr. T, The King of Karbranth, Odium, Retribuition]
- - name: Raoden
-   aliases: [Spirit, King Raoden]
- - name: Sarene
-   aliases: [Empress Sarene]
- - name: Hrathen
-   aliases: [Gyorn Hrathen]
- - name: Siri
-   aliases: [Sisirinah, Vessel of the God King, Queen Siri]
- - name: Denth
- - name: Llarimar
- - name: Bluefingers
- - name: Nightblood
-   aliases: [Sword-nimi, Black Sword, Destroyer of Evil]
- - name: Blushweaver
- - name: Lightsong
- - name: Vivenna
-   aliases: [Azure, High Judge]
- - name: Susebron
-   aliases: [God King]
- - name: Khriss
-   aliases: [Khrissalla]
- - name: Tress
-   aliases: [Spress, Glorf]
- - name: Charlie
-   aliases: [The Sorcerer's Apprentice]
- - name: Yumi
-   aliases: [Yoki-hijo]
- - name: Nikaro
-   aliases: [Painter]
- - name: Kenton
-   aliases: [Lord Mastrell]
- - name: Khrissalla
-   aliases: [Khriss, Author of the Arcanum Unbounded]
- - name: Sixth of the Dusk
-   aliases: [Dusk, The Trapper]
- - name: Illistandrista
-   aliases: [Starling]
- - name: Sak
-   aliases: [Aviar Companion]
- - name: Vathi 
-   aliases: [President Vathi]
- - name: Elend
-   aliases: ["Elend", "King of Luthadel", "Emperor"]
- - name: Shai
-   aliases: ["Moonlight"]
+  - name: Hoid
+    aliases: [Wit, Cephandrius, Midius, Dust, "The King's Wit", Imperial Fool]
+  - name: Kelsier
+    aliases: [Thaidakar, Survivor, The Survivor, Lord of the Mists]
+  - name: Vasher
+    aliases: [Zahel, Kalad, Warbreaker, Peacegiver, Strifelover, Tax, Talaxin, Prophet]
+  - name: December
+    requires_capitalization: true
+  - name: Amaal
+  - name: Abrim Flint
+    aliases: [Flint]
+  - name: Tamantha
+  - name: Vin
+    aliases: [Vin Venture, Valette Renoux, Lady Heir, The Ascendant Warrior]
+  - name: Sazed
+    aliases: [Harmony, Discord, The Hero of Ages]
+  - name: Waxillium Ladrian
+    aliases: [Wax, Waxillium, Lord Waxillium]
+  - name: Wayne
+  - name: Kaladin
+    aliases: [Kaladin Stormblessed, Captain Kaladin, Highmarshal, Stormblessed,
+              Kal, Herald of Wind]
+  - name: Dalinar
+    aliases: [Dalinar Kholin, The Blackthorn, Highprince of War, Unity]
+  - name: Shallan
+    aliases: [Shallan Davar, Veil, Radiant, Swiftspren]
+  - name: Szeth
+    aliases: [Szeth-son-son-Vallano, The Assassin in White,
+              Truthless of Shinovar, Knight of Truth]
+  - name: Jasnah
+    aliases: [Jasnah Kholin, Queen Jasnah, Brightness Kholin]
+  - name: Taravangian
+    aliases: [Mr. T, The King of Kharbranth, Odium, Retribution]
+  - name: Raoden
+    aliases: [Spirit, King Raoden]
+  - name: Sarene
+    aliases: [Empress Sarene]
+  - name: Hrathen
+    aliases: [Gyorn Hrathen]
+  - name: Siri
+    aliases: [Sisirinah, Vessel of the God King, Queen Siri]
+  - name: Denth
+  - name: Llarimar
+  - name: Bluefingers
+  - name: Nightblood
+    aliases: [Sword-nimi, Black Sword, Destroyer of Evil]
+  - name: Blushweaver
+  - name: Lightsong
+  - name: Vivenna
+    aliases: [Azure, High Judge]
+  - name: Susebron
+    aliases: [God King, Susebron the Pious]
+  - name: Khriss
+    aliases: [Khrissalla, Khrissalla of Taldain]
+  - name: Tress
+    aliases: [Spress, Glorf]
+  - name: Charlie
+    aliases: ["The Sorcerer's Apprentice"]
+  - name: Yumi
+    aliases: [Yoki-hijo]
+  - name: Nikaro
+    aliases: [Painter]
+  - name: Kenton
+    aliases: [Lord Mastrell]
+  - name: Sixth of the Dusk
+    aliases: [Dusk, The Trapper]
+  - name: Starling
+    aliases: [Illistandrista]
+    requires_capitalization: true
+  - name: Sak
+    aliases: [Aviar Companion]
+    requires_capitalization: true
+  - name: Vathi
+    aliases: [President Vathi]
+  - name: Elend
+    aliases: [Elend Venture, King of Luthadel, Emperor]
+  - name: Shai
+    aliases: [Moonlight, Wan ShaiLu]
+
 books:
   - name: "Mistborn: The Final Empire"
-    aliases: ["Mistborn #1", "The Final Empire"]
+    aliases: [The Final Empire, "Mistborn #1"]
   - name: The Well of Ascension
     aliases: ["Mistborn #2"]
   - name: The Hero of Ages
@@ -247,29 +326,29 @@ books:
     aliases: ["Mistborn #7"]
   - name: Elantris
     aliases: ["Elantris #1"]
-  - name: The Emperor's Soul
-    aliases: ["Elantris novella"]
+  - name: "The Emperor's Soul"
   - name: Warbreaker
   - name: The Way of Kings
-    aliases: ["Stormlight #1"]
+    aliases: ["Stormlight #1", WoK]
   - name: Words of Radiance
-    aliases: ["Stormlight #2"]
+    aliases: ["Stormlight #2", WoR]
   - name: Oathbringer
-    aliases: ["Stormlight #3"]
+    aliases: ["Stormlight #3", OB]
   - name: Rhythm of War
-    aliases: ["Stormlight #4"]
+    aliases: ["Stormlight #4", RoW]
   - name: Wind and Truth
-    aliases: ["Stormlight #5"]
+    aliases: ["Stormlight #5", WaT]
   - name: White Sand
-    aliases: ["White Sand Vol. 1–3"]
+    aliases: ["White Sand Vol. 1-3"]
   - name: Arcanum Unbounded
     aliases: ["Arcanum Unbounded: The Cosmere Collection"]
   - name: Sixth of the Dusk
-    aliases: ["Sixth of the Dusk (novella)"]
   - name: Shadows for Silence in the Forests of Hell
-    aliases: ["Shadows for Silence (novella)"]
+    aliases: [Shadows for Silence]
   - name: Tress of the Emerald Sea
+    aliases: [Tress]
   - name: Yumi and the Nightmare Painter
+    aliases: [Yumi]
   - name: The Sunlit Man
   - name: Isles of the Emberdark
   - name: The Fires of December
@@ -290,6 +369,7 @@ locations:
   - name: Shinovar
   - name: Thaylenah
   - name: Horneater Peaks
+    aliases: [Horneater Peaks, Peaks]
   - name: Aimia
   - name: Akinah
   - name: Frostlands
@@ -334,10 +414,12 @@ locations:
   - name: Rashekin
   - name: The Mists
   - name: Southern Scadrial
-  - name: Hunters' Fortress
+  - name: "Hunters' Fortress"
 
   # Sel
   - name: Elantris
+    requires_capitalization: true
+    # "elantris" também é nome próprio, mas por segurança
   - name: Arelon
   - name: Teod
   - name: Opelon
@@ -349,21 +431,21 @@ locations:
   - name: Widor
   - name: Duladel
   - name: Jindo
+    aliases: [JinDo]
   - name: Svorden
   - name: Dula
-  - name: JinDo
-  - name: The Dor
+
 
   # Nalthis
-  - name: T'Telir
+  - name: "T'Telir"
     aliases: [Capital of Hallandren]
   - name: Hallandren
   - name: Idris
   - name: Bevalis
   - name: Court of Gods
-  - name: God King's Palace
+  - name: "God King's Palace"
   - name: Pahn Kahl
-  - name: T'Telir Jungle
+  - name: "T'Telir Jungle"
 
   # Taldain
   - name: Kezare
@@ -378,20 +460,19 @@ locations:
   - name: Forests of Hell
   - name: Fallen World
   - name: The Beyond
+    requires_capitalization: true
 
   # First of the Sun & Isles of the Emberdark
   - name: Patji
-    aliases: [Patji Island]
-  - name: Patji's Eye
+    aliases: [Patji Island, "Patji's Eye"]
   - name: Emberdark
   - name: Knell
   - name: Eelakin Islands
-  - name: Mainland
   - name: Pantheon archipelago
   - name: Homeisles
 
-  # Lumar (Tress of the Emerald Sea)
-  - name: Diggen's Point
+  # Lumar (Tress)
+  - name: "Diggen's Point"
     aliases: [The Rock]
   - name: Core Archipelago
   - name: Erik Island
@@ -408,16 +489,16 @@ locations:
   - name: Sunlight Sea
   - name: Verdant Lunagree
 
-  # Komashi (Yumi and the Nightmare Painter)
+  # Komashi (Yumi)
   - name: Kilahito
   - name: Torio
 
-  # Canticle (The Sunlit Man)
+  # Canticle (Sunlit Man)
   - name: Beacon
     aliases: [Beacon City]
-  - name: Cinder King's Domain
+  - name: "Cinder King's Domain"
 
-  # Miral (The Fires of December)
+  # Miral (Fires of December)
   - name: Mountaincrest
   - name: Kingseat
   - name: Smallport
@@ -435,4 +516,4 @@ locations:
   - name: Expanse of the Densities
   - name: Expanse of Vibrance
   - name: Expanse of the Broken Sky
-  - name: Vapor–Firmament corridor
+  - name: Vapor-Firmament Corridor

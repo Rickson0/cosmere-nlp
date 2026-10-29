@@ -3,17 +3,45 @@ import re
 from src.util.ontology_loader import load_intents
 
 
-def classify_intent(brandon_text):
-    intents = load_intents()['intent_labels']
-    text = brandon_text.lower()
-    hits = []
+import re
+from functools import lru_cache
+
+@lru_cache(maxsize=1)
+def get_compiled_intents(path="data/ontology/intents.yaml"):
+    """Carrega YAML uma vez, compila todos os patterns uma vez."""
+    import yaml
+    with open(path) as f:
+        data = yaml.safe_load(f)
+
+    # aceita lista direta ou dict com qualquer chave-lista
+    if isinstance(data, dict):
+        intents = next((v for v in data.values() if isinstance(v, list)), [])
+    else:
+        intents = data
+
+    compiled = []
     for intent in intents:
-        patterns = intent.get("patterns",[])
+        name = (intent.get("name") or "unknown").lower()
+        patterns = intent.get("patterns") or []
+        regexes = []
         for p in patterns:
-            p = str(p).lower()
-            if re.search(p, text):
-                hits.append(intent.get("name", "unknown").lower())
-                break  
+            p = str(p).strip()
+            if not p:
+                continue
+            try:
+                regexes.append(re.compile(p, re.IGNORECASE | re.MULTILINE))
+            except re.error as e:
+                print(f"[aviso] pattern inválido em '{name}': {p!r} → {e}")
+        compiled.append((name, regexes))
+    return compiled
+
+def classify_intent(answer_text):
+    hits = []
+    for name, regexes in get_compiled_intents():
+        for rx in regexes:
+            if rx.search(answer_text):   # texto NÃO é lowered (IGNORECASE cuida)
+                hits.append(name)
+                break
     return hits or ["other"]
 
 
