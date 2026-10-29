@@ -1,4 +1,4 @@
-from src.preprocessing.intent_classifier import classify_intent
+from preprocessing.intent_classifier import classify_intent
 
 
 rafo = "So which of the roles played by Hoid is my favorite. I would probably say Dust from Warbreaker. I just like-- That's the most true storyteller he's been, kind of based on oral storytelling tradition and things like that. I can't tell you. You'll have to read and find out whether you'll find him in Dalinar's flashbacks or not."

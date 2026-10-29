@@ -27,11 +27,11 @@ RESPONDERS = {
     "brandon sanderson",
     "peter ahlstrom",
     "isaac stewart",
-    # adicione outros conforme encontrar no corpus
+    
+    
 }
 
 def extract_answer_text(wob):
-    """Extrai falas de qualquer respondedor autorizado (não só Brandon)."""
     parts = []
     for line in wob.get("lines", []):
         speaker = line.get("speaker", "").lower().strip()
