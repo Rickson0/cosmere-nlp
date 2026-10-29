@@ -8,10 +8,10 @@ def classify_intent(brandon_text):
     text = brandon_text.lower()
     hits = []
     for intent in intents:
-        patterns = intent.get("patterns",)
+        patterns = intent.get("patterns",[])
         for p in patterns:
             p = str(p).lower()
-            if re.search(rf"\b{re.escape(p)}\b", text):
+            if re.search(p, text):
                 hits.append(intent.get("name", "unknown").lower())
                 break  
     return hits or ["other"]

@@ -3,4 +3,6 @@ data/raw
 data/processed/*.parquet
 __pycache__
 sandbox.py
-
+src/preprocessing/__pycache__/
+src/util/__pycache__/
+tests/test_all.py

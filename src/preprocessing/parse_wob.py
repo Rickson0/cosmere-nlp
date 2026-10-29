@@ -23,3 +23,19 @@ def extract_question_text(wob):
 def extract_full_text(wob):
     return " ".join(strip_html(line["text"]) for line in wob.get("lines", []))
     
+RESPONDERS = {
+    "brandon sanderson",
+    "peter ahlstrom",
+    "isaac stewart",
+    # adicione outros conforme encontrar no corpus
+}
+
+def extract_answer_text(wob):
+    """Extrai falas de qualquer respondedor autorizado (não só Brandon)."""
+    parts = []
+    for line in wob.get("lines", []):
+        speaker = line.get("speaker", "").lower().strip()
+        if speaker in RESPONDERS:
+            parts.append(strip_html(line["text"]))
+    return " ".join(parts)
+

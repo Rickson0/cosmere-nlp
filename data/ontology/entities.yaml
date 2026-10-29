@@ -274,3 +274,165 @@ books:
   - name: Isles of the Emberdark
   - name: The Fires of December
 
+locations:
+  # Roshar
+  - name: Alethkar
+  - name: Kharbranth
+    aliases: [City of Bells]
+  - name: Kholinar
+  - name: Urithiru
+    aliases: [Tower City, City of Urithiru]
+  - name: Shattered Plains
+  - name: Narak
+  - name: Azir
+    aliases: [Azimir]
+  - name: Jah Keved
+  - name: Shinovar
+  - name: Thaylenah
+  - name: Horneater Peaks
+  - name: Aimia
+  - name: Akinah
+  - name: Frostlands
+  - name: Purelake
+  - name: Bavland
+  - name: Reshi Isles
+  - name: Silver Kingdoms
+    aliases: [Epoch Kingdoms]
+  - name: Makabakam
+    aliases: [Makabak]
+  - name: Rall Elorim
+  - name: Sesemalex Dar
+  - name: Yeddaw
+  - name: Kurth
+  - name: Revolar
+  - name: Rathalas
+    aliases: [The Rift]
+  - name: Hearthstone
+  - name: Weathering
+  - name: Little Herdaz
+  - name: New Natanan
+
+  # Scadrial
+  - name: Elendel
+  - name: Elendel Basin
+  - name: Luthadel
+  - name: Kredik Shaw
+    aliases: [Hill of a Thousand Spires]
+  - name: Pits of Hathsin
+  - name: Terris
+  - name: The Roughs
+  - name: Bilming
+  - name: Fadrex City
+  - name: Urteau
+  - name: Tathingdwen
+  - name: Keep Venture
+  - name: Kandra Homeland
+  - name: Conventical of Seran
+  - name: New Seran
+  - name: Dulsing
+  - name: Covingtar
+  - name: Rashekin
+  - name: The Mists
+  - name: Southern Scadrial
+  - name: Hunters' Fortress
+
+  # Sel
+  - name: Elantris
+  - name: Arelon
+  - name: Teod
+  - name: Opelon
+    aliases: [Sycla]
+  - name: Fjorden
+  - name: Rose Empire
+  - name: Dakhor Monastery
+  - name: Kae
+  - name: Widor
+  - name: Duladel
+  - name: Jindo
+  - name: Svorden
+  - name: Dula
+  - name: JinDo
+  - name: The Dor
+
+  # Nalthis
+  - name: T'Telir
+    aliases: [Capital of Hallandren]
+  - name: Hallandren
+  - name: Idris
+  - name: Bevalis
+  - name: Court of Gods
+  - name: God King's Palace
+  - name: Pahn Kahl
+  - name: T'Telir Jungle
+
+  # Taldain
+  - name: Kezare
+  - name: Lossand
+  - name: Kerzta
+  - name: KraeDa
+  - name: Elis
+  - name: Darkside
+  - name: Dayside
+
+  # Threnody
+  - name: Forests of Hell
+  - name: Fallen World
+  - name: The Beyond
+
+  # First of the Sun & Isles of the Emberdark
+  - name: Patji
+    aliases: [Patji Island]
+  - name: Patji's Eye
+  - name: Emberdark
+  - name: Knell
+  - name: Eelakin Islands
+  - name: Mainland
+  - name: Pantheon archipelago
+  - name: Homeisles
+
+  # Lumar (Tress of the Emerald Sea)
+  - name: Diggen's Point
+    aliases: [The Rock]
+  - name: Core Archipelago
+  - name: Erik Island
+  - name: Dromatory Isles
+  - name: Kingsport
+  - name: Shimmerbay
+  - name: Filistrate City
+  - name: Emerald Sea
+    aliases: [Verdant Sea]
+  - name: Rose Sea
+  - name: Sapphire Sea
+  - name: Crimson Sea
+  - name: Midnight Sea
+  - name: Sunlight Sea
+  - name: Verdant Lunagree
+
+  # Komashi (Yumi and the Nightmare Painter)
+  - name: Kilahito
+  - name: Torio
+
+  # Canticle (The Sunlit Man)
+  - name: Beacon
+    aliases: [Beacon City]
+  - name: Cinder King's Domain
+
+  # Miral (The Fires of December)
+  - name: Mountaincrest
+  - name: Kingseat
+  - name: Smallport
+  - name: Rivershore
+  - name: First Dukeseat
+  - name: River Violet
+    aliases: [Violet Blood River]
+
+  # Cognitive Realm & outros
+  - name: Silverlight
+  - name: Celebrant
+  - name: Lasting Integrity
+  - name: Ire Fortress
+  - name: Expanse of the Vapors
+  - name: Expanse of the Densities
+  - name: Expanse of Vibrance
+  - name: Expanse of the Broken Sky
+  - name: Vapor–Firmament corridor
