@@ -8,6 +8,7 @@ from src.util.ontology_loader import load_entities
 
 data = json.load(open("data/raw/wobs.json"))
 
+
 def rafo_rate_by_topic(data):
     rafo_by_topic = defaultdict(int)
     total_by_topic = defaultdict(int)
@@ -26,7 +27,7 @@ def rafo_rate_by_topic(data):
     rows = [
         (tag, rafo_by_topic[tag] / total_by_topic[tag], total_by_topic[tag])
         for tag in total_by_topic
-        if total_by_topic[tag] >= 10  
+        if total_by_topic[tag] >= 10
     ]
     rows.sort(key=lambda x: -x[1])
     return rows

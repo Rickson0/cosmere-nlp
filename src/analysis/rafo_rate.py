@@ -8,7 +8,7 @@ def is_rafo(answer_text):
 
 
 def evaluate_against_gold(gold_path, wobs_path):
-   
+
     gold = json.load(open(gold_path))
     gold_by_id = {g["id"]: g["rafo"] for g in gold}
 
@@ -39,8 +39,9 @@ def evaluate_against_gold(gold_path, wobs_path):
             tn += 1
 
     precision = tp / (tp + fp) if tp + fp else 0
-    recall    = tp / (tp + fn) if tp + fn else 0
-    f1        = (2 * precision * recall / (precision + recall)) if (precision + recall) else 0
+    recall = tp / (tp + fn) if tp + fn else 0
+    f1 = (2 * precision * recall / (precision + recall)
+          ) if (precision + recall) else 0
 
     return {
         "tp": tp, "fp": fp, "fn": fn, "tn": tn,
@@ -52,7 +53,7 @@ def evaluate_against_gold(gold_path, wobs_path):
 
 
 def evaluate_on_corpus(wobs_path):
-   
+
     from collections import Counter
 
     data = json.load(open(wobs_path))
@@ -78,7 +79,8 @@ def evaluate_on_corpus(wobs_path):
 
 def print_report_gold(result):
     print("=== VALIDAÇÃO CONTRA GOLD SET ===")
-    print(f"TP={result['tp']}  FP={result['fp']}  FN={result['fn']}  TN={result['tn']}")
+    print(
+        f"TP={result['tp']}  FP={result['fp']}  FN={result['fn']}  TN={result['tn']}")
     print(f"Precisão: {result['precision']:.2%}")
     print(f"Recall:   {result['recall']:.2%}")
     print(f"F1:       {result['f1']:.2%}")

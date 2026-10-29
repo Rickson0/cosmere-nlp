@@ -1,4 +1,3 @@
-
 shards:
   - name: Devotion
     aliases: [Aona]
@@ -65,24 +64,113 @@ planets:
 
 magic_system:
   - name: Allomancy
-    aliases: [Allomantic, Allomancer, Allomancers, Misting, Mistings, Mistborn, Mistborns]
-    proxies: [burn, burns, burning, burned, flare, flares, flaring, metal reserve, metal reserves,
-              seek, seeking, smoked, smoking, soothe, soothing, riot, rioting]
+    aliases:
+      [
+        Allomantic,
+        Allomancer,
+        Allomancers,
+        Misting,
+        Mistings,
+        Mistborn,
+        Mistborns,
+      ]
+    proxies:
+      [
+        burn,
+        burns,
+        burning,
+        burned,
+        flare,
+        flares,
+        flaring,
+        metal reserve,
+        metal reserves,
+        seek,
+        seeking,
+        smoked,
+        smoking,
+        soothe,
+        soothing,
+        riot,
+        rioting,
+      ]
   - name: Feruchemy
-    aliases: [Feruchemical, Feruchemist, Feruchemists, Ferring, Ferrings, Feruchemically]
-    proxies: [metalmind, metalminds, coppermind, copperminds, unkeyed metalmind,
-              unkeyed metalminds, fill, filling, tap, tapping, stored attribute, store attribute]
+    aliases:
+      [
+        Feruchemical,
+        Feruchemist,
+        Feruchemists,
+        Ferring,
+        Ferrings,
+        Feruchemically,
+      ]
+    proxies:
+      [
+        metalmind,
+        metalminds,
+        coppermind,
+        copperminds,
+        unkeyed metalmind,
+        unkeyed metalminds,
+        fill,
+        filling,
+        tap,
+        tapping,
+        stored attribute,
+        store attribute,
+      ]
   - name: Hemalurgy
     aliases: [Hemalurgic, Hemalurgist, Hemalurgists, Hemalurgically]
-    proxies: [spike, spikes, spiked, spiking, bind point, bind points, bindpoint, bindpoints,
-              hemalurgic spike, hemalurgic spikes, stapled, staple, staples, bloodseal, bloodsealing]
+    proxies:
+      [
+        spike,
+        spikes,
+        spiked,
+        spiking,
+        bind point,
+        bind points,
+        bindpoint,
+        bindpoints,
+        hemalurgic spike,
+        hemalurgic spikes,
+        stapled,
+        staple,
+        staples,
+        bloodseal,
+        bloodsealing,
+      ]
   - name: Surgebinding
-    aliases: [Surgebinder, Surgebinders, Surge, Surges, Radiant, Radiants, Knight Radiant,
-              Knights Radiant, Windrunner, Windrunners, Skybreaker, Skybreakers,
-              Edgedancer, Edgedancers, Truthwatcher, Truthwatchers,
-              Lightweaver, Lightweavers, Elsecaller, Elsecallers,
-              Willshaper, Willshapers, Stoneward, Stonewards,
-              Dustbringer, Dustbringers, Bondsmith, Bondsmiths]
+    aliases:
+      [
+        Surgebinder,
+        Surgebinders,
+        Surge,
+        Surges,
+        Radiant,
+        Radiants,
+        Knight Radiant,
+        Knights Radiant,
+        Windrunner,
+        Windrunners,
+        Skybreaker,
+        Skybreakers,
+        Edgedancer,
+        Edgedancers,
+        Truthwatcher,
+        Truthwatchers,
+        Lightweaver,
+        Lightweavers,
+        Elsecaller,
+        Elsecallers,
+        Willshaper,
+        Willshapers,
+        Stoneward,
+        Stonewards,
+        Dustbringer,
+        Dustbringers,
+        Bondsmith,
+        Bondsmiths,
+      ]
     proxies: [spren, sprens, ideal, ideals, oath, oaths]
   - name: AonDor
     aliases: [Aon, Aons, Elantrian, Elantrians, Shaod]
@@ -144,9 +232,18 @@ metals:
 
 concepts:
   - name: Investiture
-    aliases: [Invested, Invest, Investing, Kinetic Investiture, Innate Investiture,
-              Static Investiture, Investidura]
-    proxies: [invested art, invested arts, kinetic investiture, innate investiture]
+    aliases:
+      [
+        Invested,
+        Invest,
+        Investing,
+        Kinetic Investiture,
+        Innate Investiture,
+        Static Investiture,
+        Investidura,
+      ]
+    proxies:
+      [invested art, invested arts, kinetic investiture, innate investiture]
   - name: Identity
     requires_capitalization: true
     aliases: [spiritual identity]
@@ -196,8 +293,17 @@ concepts:
   - name: Perpendicularity
     aliases: [Perpendicularities, perpendicularity, perpendicularities]
   - name: Worldhopper
-    aliases: [Worldhoppers, worldhopper, worldhoppers, worldhopping, worldhop,
-              worldhops, worldhopped, Worldhopping]
+    aliases:
+      [
+        Worldhoppers,
+        worldhopper,
+        worldhoppers,
+        worldhopping,
+        worldhop,
+        worldhops,
+        worldhopped,
+        Worldhopping,
+      ]
   - name: Initiation
     aliases: [Initiations, Initiated, Initiating]
   - name: Resonance
@@ -235,7 +341,8 @@ character:
   - name: Kelsier
     aliases: [Thaidakar, Survivor, The Survivor, Lord of the Mists]
   - name: Vasher
-    aliases: [Zahel, Kalad, Warbreaker, Peacegiver, Strifelover, Tax, Talaxin, Prophet]
+    aliases:
+      [Zahel, Kalad, Warbreaker, Peacegiver, Strifelover, Tax, Talaxin, Prophet]
   - name: December
     requires_capitalization: true
   - name: Amaal
@@ -250,15 +357,27 @@ character:
     aliases: [Wax, Waxillium, Lord Waxillium]
   - name: Wayne
   - name: Kaladin
-    aliases: [Kaladin Stormblessed, Captain Kaladin, Highmarshal, Stormblessed,
-              Kal, Herald of Wind]
+    aliases:
+      [
+        Kaladin Stormblessed,
+        Captain Kaladin,
+        Highmarshal,
+        Stormblessed,
+        Kal,
+        Herald of Wind,
+      ]
   - name: Dalinar
     aliases: [Dalinar Kholin, The Blackthorn, Highprince of War, Unity]
   - name: Shallan
     aliases: [Shallan Davar, Veil, Radiant, Swiftspren]
   - name: Szeth
-    aliases: [Szeth-son-son-Vallano, The Assassin in White,
-              Truthless of Shinovar, Knight of Truth]
+    aliases:
+      [
+        Szeth-son-son-Vallano,
+        The Assassin in White,
+        Truthless of Shinovar,
+        Knight of Truth,
+      ]
   - name: Jasnah
     aliases: [Jasnah Kholin, Queen Jasnah, Brightness Kholin]
   - name: Taravangian
@@ -434,7 +553,6 @@ locations:
     aliases: [JinDo]
   - name: Svorden
   - name: Dula
-
 
   # Nalthis
   - name: "T'Telir"

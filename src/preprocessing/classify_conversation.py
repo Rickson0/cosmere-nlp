@@ -1,5 +1,6 @@
 from src.util.ontology_loader import load_conversation_types
 
+
 def classify_conversation(question_text):
     text = question_text.lower()
     hits = []
@@ -8,4 +9,3 @@ def classify_conversation(question_text):
         if t['patterns'] and any(p.lower() in text for p in t["patterns"]):
             hits.append(t["name"])
     return hits or ["cosmere_lore"]
-    

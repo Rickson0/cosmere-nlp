@@ -1,4 +1,5 @@
-import json, yaml
+import json
+import yaml
 import re
 from src.util.ontology_loader import load_intents
 
@@ -6,14 +7,13 @@ from src.util.ontology_loader import load_intents
 import re
 from functools import lru_cache
 
+
 @lru_cache(maxsize=1)
 def get_compiled_intents(path="data/ontology/intents.yaml"):
-    """Carrega YAML uma vez, compila todos os patterns uma vez."""
     import yaml
     with open(path) as f:
         data = yaml.safe_load(f)
 
-    # aceita lista direta ou dict com qualquer chave-lista
     if isinstance(data, dict):
         intents = next((v for v in data.values() if isinstance(v, list)), [])
     else:
@@ -35,13 +35,12 @@ def get_compiled_intents(path="data/ontology/intents.yaml"):
         compiled.append((name, regexes))
     return compiled
 
+
 def classify_intent(answer_text):
     hits = []
     for name, regexes in get_compiled_intents():
         for rx in regexes:
-            if rx.search(answer_text):   # texto NÃO é lowered (IGNORECASE cuida)
+            if rx.search(answer_text):
                 hits.append(name)
                 break
     return hits or ["other"]
-
-

@@ -1,4 +1,5 @@
-import yaml, re
+import yaml
+import re
 from pathlib import Path
 from src.util.ontology_loader import load_entities
 from functools import lru_cache
@@ -8,6 +9,7 @@ COMMON_WORD_ALIASES = {
     "faith", "valor", "mercy", "invention", "whimsy",
     "dominion", "devotion", "ambition", "endowment",
 }
+
 
 def build_gazetteer(ontology):
     """Retorna dois dicts:
@@ -36,20 +38,23 @@ def build_gazetteer(ontology):
 
     return aliases_gaz, caps_gaz
 
+
 @lru_cache(maxsize=1)
 def get_matcher():
     aliases_gaz, caps_gaz = build_gazetteer(load_entities())
 
-
     alias_pattern = re.compile(
-        r'\b(?:' + '|'.join(re.escape(a) for a in sorted(aliases_gaz, key=len, reverse=True)) + r')\b',
+        r'\b(?:' + '|'.join(re.escape(a)
+                            for a in sorted(aliases_gaz, key=len, reverse=True)) + r')\b',
         re.IGNORECASE,
     )
     caps_pattern = re.compile(
-        r'\b(?:' + '|'.join(re.escape(a) for a in sorted(caps_gaz, key=len, reverse=True)) + r')\b',
+        r'\b(?:' + '|'.join(re.escape(a)
+                            for a in sorted(caps_gaz, key=len, reverse=True)) + r')\b',
     ) if caps_gaz else None
 
     return aliases_gaz, caps_gaz, alias_pattern, caps_pattern
+
 
 def tag_text(text):
     aliases_gaz, caps_gaz, alias_pattern, caps_pattern = get_matcher()
