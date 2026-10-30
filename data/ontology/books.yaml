@@ -1,0 +1,269 @@
+
+
+books:
+  
+  - name: Elantris
+    year: 2005
+    series: Elantris
+    era: elantris
+    planet: Sel
+    format: novel
+
+  - name: The Hope of Elantris
+    year: 2006
+    series: Elantris
+    era: elantris
+    planet: Sel
+    format: short_story
+
+  - name: "Mistborn: The Final Empire"
+    year: 2006
+    series: Mistborn Era 1
+    era: mistborn_era1
+    planet: Scadrial
+    format: novel
+
+  - name: The Well of Ascension
+    year: 2007
+    series: Mistborn Era 1
+    era: mistborn_era1
+    planet: Scadrial
+    format: novel
+
+  - name: The Hero of Ages
+    year: 2008
+    series: Mistborn Era 1
+    era: mistborn_era1
+    planet: Scadrial
+    format: novel
+
+  - name: The Eleventh Metal
+    year: 2011
+    series: Mistborn Era 1
+    era: mistborn_era1
+    planet: Scadrial
+    format: short_story
+
+  - name: "Mistborn: Secret History"
+    year: 2016
+    series: Mistborn Era 1
+    era: mistborn_era1
+    planet: Scadrial
+    format: novella
+
+ 
+  - name: Warbreaker
+    year: 2009
+    series: Standalone
+    era: standalone
+    planet: Nalthis
+    format: novel
+
+
+  - name: The Way of Kings
+    year: 2010
+    series: The Stormlight Archive
+    era: stormlight
+    planet: Roshar
+    format: novel
+
+  - name: Words of Radiance
+    year: 2014
+    series: The Stormlight Archive
+    era: stormlight
+    planet: Roshar
+    format: novel
+
+  - name: Edgedancer
+    year: 2016
+    series: The Stormlight Archive
+    era: stormlight
+    planet: Roshar
+    format: novella
+
+  - name: Oathbringer
+    year: 2017
+    series: The Stormlight Archive
+    era: stormlight
+    planet: Roshar
+    format: novel
+
+  - name: Dawnshard
+    year: 2020
+    series: The Stormlight Archive
+    era: stormlight
+    planet: Roshar
+    format: novella
+
+  - name: Rhythm of War
+    year: 2020
+    series: The Stormlight Archive
+    era: stormlight
+    planet: Roshar
+    format: novel
+
+  - name: Wind and Truth
+    year: 2024
+    series: The Stormlight Archive
+    era: stormlight
+    planet: Roshar
+    format: novel
+
+  # ── Mistborn Era 2 ────────────────────────────────────────────────
+  - name: The Alloy of Law
+    year: 2011
+    series: Mistborn Era 2
+    era: mistborn_era2
+    planet: Scadrial
+    format: novel
+
+  - name: Allomancer Jak and the Pits of Eltania
+    year: 2014
+    series: Mistborn Era 2
+    era: mistborn_era2
+    planet: Scadrial
+    format: short_story
+
+  - name: Shadows of Self
+    year: 2015
+    series: Mistborn Era 2
+    era: mistborn_era2
+    planet: Scadrial
+    format: novel
+
+  - name: The Bands of Mourning
+    year: 2016
+    series: Mistborn Era 2
+    era: mistborn_era2
+    planet: Scadrial
+    format: novel
+
+  - name: The Lost Metal
+    year: 2022
+    series: Mistborn Era 2
+    era: mistborn_era2
+    planet: Scadrial
+    format: novel
+
+  # ── Sel / Imperium Roshar ─────────────────────────────────────────
+  - name: The Emperor's Soul
+    year: 2012
+    series: Standalone
+    era: standalone
+    planet: Sel
+    format: novella
+
+  # ── Threnody ──────────────────────────────────────────────────────
+  - name: Shadows for Silence in the Forests of Hell
+    year: 2013
+    series: Standalone
+    era: standalone
+    planet: Threnody
+    format: novella
+
+  # ── First of the Sun ──────────────────────────────────────────────
+  - name: Sixth of the Dusk
+    year: 2014
+    series: Standalone
+    era: standalone
+    planet: First of the Sun
+    format: novella
+
+  # ── White Sand ────────────────────────────────────────────────────
+  - name: White Sand
+    year: 2016
+    series: White Sand
+    era: white_sand
+    planet: Taldain
+    format: graphic_novel
+
+  - name: White Sand Volume 1
+    year: 2016
+    series: White Sand
+    era: white_sand
+    planet: Taldain
+    format: graphic_novel
+
+  - name: White Sand Volume 2
+    year: 2018
+    series: White Sand
+    era: white_sand
+    planet: Taldain
+    format: graphic_novel
+
+  - name: White Sand Volume 3
+    year: 2019
+    series: White Sand
+    era: white_sand
+    planet: Taldain
+    format: graphic_novel
+
+  - name: White Sand Omnibus
+    year: 2022
+    series: White Sand
+    era: white_sand
+    planet: Taldain
+    format: graphic_novel
+
+  # ── Antologia ─────────────────────────────────────────────────────
+  - name: Arcanum Unbounded
+    year: 2016
+    series: Anthology
+    era: anthology
+    planet: null
+    format: anthology
+
+  # ── Secret Projects / Standalone ──────────────────────────────────
+  - name: Tress of the Emerald Sea
+    year: 2023
+    series: Secret Projects
+    era: standalone
+    planet: Lumar
+    format: novel
+
+  - name: Yumi and the Nightmare Painter
+    year: 2023
+    series: Secret Projects
+    era: standalone
+    planet: Komashi
+    format: novel
+
+  - name: The Sunlit Man
+    year: 2023
+    series: Secret Projects
+    era: standalone
+    planet: Canticle
+    format: novel
+
+  # ── First of the Sun / Era Espacial ───────────────────────────────
+  - name: Isles of the Emberdark
+    year: 2025
+    series: Secret Projects
+    era: standalone
+    planet: First of the Sun
+    format: novel
+    notes: "Secret Project 5; lançamento digital em julho de 2025, impresso em 2026"
+
+  # ── Hoid's Travails ───────────────────────────────────────────────
+  - name: The Fires of December
+    year: 2026
+    series: Hoid's Travails
+    era: hoids_travails
+    planet: Miral
+    format: novel
+    notes: "Secret Project 6; digital em 6 de outubro de 2026, físico em 8 de dezembro de 2026"
+
+  # ── Stormlight short stories (não coletados em livro principal) ───
+  - name: Elsecaller
+    year: 2020
+    series: The Stormlight Archive
+    era: stormlight
+    planet: Roshar
+    format: short_story
+
+  - name: King Lopen the First of Alethkar
+    year: 2020
+    series: The Stormlight Archive
+    era: stormlight
+    planet: Roshar
+    format: short_story
