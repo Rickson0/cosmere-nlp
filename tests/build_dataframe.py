@@ -41,6 +41,7 @@ def build_rows(wobs_path="data/raw/wobs.json"):
             "answer":        answer,
             "full_text":     full,
             "answer_len":    len(answer),
+            "question_len":  len(question),
             # intents
             "intents":         intents,
             "is_rafo":         "rafo" in intents,

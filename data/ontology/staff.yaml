@@ -1,0 +1,96 @@
+# =====================================================================
+# DRAGONSTEEL STAFF — ontologia de respondedores e colaboradores
+# =====================================================================
+# Campos:
+#   name:     nome canônico (usado no pipeline)
+#   aliases:  variantes comuns (apelidos, grafias alternativas)
+#   role:     função principal na Dragonsteel
+#   active:   se ainda faz parte da equipe / responde WoBs
+# =====================================================================
+
+staff:
+  # ── Liderança e fundação ──────────────────────────────────────────
+  - name: Brandon Sanderson
+    aliases: [Brandon, BS, "Brandon Sanderson"]
+    role: Author & President
+    active: true
+
+  - name: Emily Sanderson
+    aliases: [Emily, "Queen Emily", "The Queen", "Emily Bushman"]
+    role: Co-President / Business Manager
+    active: true
+
+  # ── Editorial e continuidade ──────────────────────────────────────
+  - name: Peter Ahlstrom
+    aliases:
+      - Peter
+      - "Incalculable Peter"
+      - "Indivisible Peter"
+      - "Insoluble Peter"
+      - "Incandescent Peter"
+      - "Inevitable Peter"
+      - "Immaculate Peter"
+      - "Inseparable Peter"
+      - "Interpolated Peter"
+      - "Instant Peter"
+      - "Ookla the Mok"
+    role: VP of Editorial
+    active: true
+
+  - name: Karen Ahlstrom
+    aliases: [Karen, "Ka", "Karen Stay Ahlstrom"]
+    role: Continuity Editor / Keeper of the Internal Wiki
+    active: true
+
+  - name: Kristy Gilbert
+    aliases: [Kristy, "Kristy Gilbert"]
+    role: Editorial Director
+    active: true
+
+  - name: Betsey Ahlstrom
+    aliases: [Betsey]
+    role: Editorial (Peter's sister)
+    active: true
+
+  - name: Jennie Stevens
+    aliases: [Jennie]
+    role: Editorial
+    active: true
+
+  # ── Arte e criação ────────────────────────────────────────────────
+  - name: Isaac Stewart
+    aliases: [Isaac, "Isaac Stewart"]
+    role: VP of Creative Development / Art Director
+    active: true
+
+  - name: Kara Stewart
+    aliases: [Kara, "Kara Stewart"]
+    role: CFO / Shipping Manager
+    active: true
+
+  - name: Priscilla Spencer
+    aliases: [Priscilla, Priscellie]
+    role: Art Coordinator
+    active: true
+
+  # ── Operações e marketing ─────────────────────────────────────────
+  - name: Adam Horne
+    aliases: [Adam, "Adam Horne"]
+    role: VP of Publicity and Marketing
+    active: true
+
+  - name: Matt Hatch
+    aliases: [Matt, "Matt Hatch"]
+    role: VP of Operations / Director of HR
+    active: true
+
+  - name: Dan Wells
+    aliases: [Dan, "Dan Wells"]
+    role: VP of Narrative
+    active: true
+
+  # ── Suporte administrativo ────────────────────────────────────────
+  - name: Kathy
+    aliases: [Kathy]
+    role: Emily's Assistant
+    active: true

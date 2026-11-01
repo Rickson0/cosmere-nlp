@@ -27,22 +27,14 @@ def _(load_ontology, pl):
     livros = pl.DataFrame(load_ontology(path='data/ontology/books.yaml')['books']).group_by('year').agg(
         pl.all()
     )
-
+    livros
     return df, livros
 
 
 @app.cell
-def _():
+def _(df, livros, pl):
 
-
-
-    return
-
-
-@app.cell
-def _(df, livros):
-
-    df_com_livros = df.join(livros, left_on='year_int', right_on='year', how='left')
+    df_com_livros = df.join(livros.with_columns(pl.col('year').alias('ano_lancamento')), left_on='year_int', right_on='year', how='left')
     return (df_com_livros,)
 
 
@@ -231,7 +223,7 @@ def _(alt, pl, rolling_mean):
             pl.col('era').drop_nulls().first()
         ])
         .sort('year')
-    
+
    
     )
 
@@ -317,12 +309,19 @@ def _(df_com_livros, pl):
         pl.len().alias('quantidade_total'),
         pl.col('full_text').explode().str.join("\n\n")
     ).drop('entities').filter(pl.col('quantidade_total') >= 20)
+
+
+    return (estatisticas_entities,)
+
+
+@app.cell
+def _(estatisticas_entities, pl):
     porcentagem_rafo_entidade = estatisticas_entities.with_columns(
         pl.col('category', 'name').explode(),
         porcentagem_rafo = (pl.col('quantidade_rafo') / pl.col('quantidade_total'))
     ).sort('porcentagem_rafo', descending=True)[:11]
     porcentagem_rafo_entidade
-    return estatisticas_entities, porcentagem_rafo_entidade
+    return (porcentagem_rafo_entidade,)
 
 
 @app.cell
@@ -462,6 +461,51 @@ def _(alt, taxa_confirmed_vs_rafo):
         )
     )
     _chart
+    return
+
+
+@app.cell
+def _(df_com_livros, pl):
+    df_com_livros.group_by('paraphrased').agg(
+        pl.col('is_rafo').mean(),
+        pl.len().alias('quantidade_total'),
+  
+    )
+    return
+
+
+@app.cell
+def _(df_com_livros, pl):
+    df_com_livros.explode('entities').filter(pl.col('paraphrased') == True).group_by('entities').len().group_by(pl.col('entities').struct.field('category')).len()
+    return
+
+
+@app.cell
+def _(df_com_livros):
+    livros_lancamento= df_com_livros.explode('name')['ano_lancamento','name'].drop_nulls().unique()
+    livros_lancamento
+    return (livros_lancamento,)
+
+
+@app.cell
+def _(df_com_livros, livros_lancamento):
+ 
+    efeito_livro_recente= df_com_livros.explode('ent_books').join(livros_lancamento, left_on='ent_books', right_on='name', how='left')
+
+
+
+    return (efeito_livro_recente,)
+
+
+@app.cell
+def _(efeito_livro_recente):
+    efeito_livro_recente['ent_books','ano_lancamento']
+    return
+
+
+@app.cell
+def _(df_com_livros):
+    df_com_livros
     return
 
 
