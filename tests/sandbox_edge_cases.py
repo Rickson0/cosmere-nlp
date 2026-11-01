@@ -11,13 +11,20 @@ from src.preprocessing.intent_classifier import classify_intent
 # ═══════════════════════════════════════════════════════════════════
 
 def check_entities(texto, esperado):
-    """esperado: set de tuplas ou set() para 'nada'."""
+    """
+    - esperado == set()  → exige que NADA seja encontrado (exact)
+    - esperado != set()  → exige que TODOS os esperados estejam no resultado (subset)
+    """
     resultado = tag_text(texto)
-    return resultado == esperado, resultado, esperado
+    if not esperado:
+        ok = len(resultado) == 0
+    else:
+        ok = esperado.issubset(resultado)
+    return ok, resultado, esperado
 
 
 def check_intent(texto, esperado):
-    """esperado: set de strings (subset)."""
+    """esperado: set de strings (subset do resultado)."""
     resultado = set(classify_intent(texto))
     ok = esperado.issubset(resultado)
     return ok, resultado, esperado
@@ -41,18 +48,18 @@ def cat1_shards_comuns():
     print("=" * 70)
 
     casos = [
-        ("odium minúsculo",          "I feel no odium toward him",          set()),
-        ("ruin minúsculo",           "the ruin of the city",                 set()),
-        ("honor minúsculo",          "honor among thieves",                  set()),
-        ("cultivation minúsculo",    "crop cultivation techniques",          set()),
-        ("preservation minúsculo",   "art preservation is important",        set()),
-        ("devotion minúsculo",       "family devotion matters",              set()),
-        ("dominion minúsculo",       "colonial dominion ended",              set()),
-        ("endowment minúsculo",      "university endowment fund",            set()),
-        ("harmony minúsculo",        "living in harmony with nature",        set()),
-        # CONTROLE — capitalizado DEVE casar
-        ("Odium capitalizado",       "Odium is a Shard",                     {("shards", "odium")}),
-        ("Honor capitalizado",       "Honor was shattered",                  {("shards", "honor")}),
+        ("odium minúsculo",        "I feel no odium toward him",       set()),
+        ("ruin minúsculo",         "the ruin of the city",              set()),
+        ("honor minúsculo",        "honor among thieves",               set()),
+        ("cultivation minúsculo",  "crop cultivation techniques",       set()),
+        ("preservation minúsculo", "art preservation is important",     set()),
+        ("devotion minúsculo",     "family devotion matters",           set()),
+        ("dominion minúsculo",     "colonial dominion ended",           set()),
+        ("endowment minúsculo",    "university endowment fund",         set()),
+        ("harmony minúsculo",      "living in harmony with nature",     set()),
+        # CONTROLE — capitalizado DEVE casar (subset check, aceita outros)
+        ("Odium capitalizado",     "Odium is a Shard",                  {("shards", "odium")}),
+        ("Honor capitalizado",     "Honor was shattered",               {("shards", "honor")}),
     ]
 
     for nome, texto, esperado in casos:
@@ -70,20 +77,20 @@ def cat2_proxies_genericos():
     print("=" * 70)
 
     casos = [
-        ("fill genérico",        "fill the cup with water",               set()),
-        ("tap genérico",         "tap on the door three times",           set()),
-        ("tapping genérico",     "tapping fingers nervously",             set()),
-        ("burn genérico",        "burn the toast",                        set()),
-        ("burn calories",        "burn calories at the gym",              set()),
-        ("command genérico",     "command respect from peers",            set()),
-        ("breath genérico",      "take a deep breath",                    set()),
-        ("ideal genérico",       "ideal situation for growth",            set()),
-        ("oath genérico",        "oath of office ceremony",               set()),
-        ("surge genérico",       "storm surge warning issued",            set()),
-        # CONTROLE — contexto Cosmere DEVE casar
-        ("fill metalmind",       "fill the metalmind with strength",      {("magic_system", "feruchemy")}),
-        ("burn steel",           "burn steel to push",                    {("magic_system", "allomancy")}),
-        ("spike hemalúrgico",    "the spike is hemalurgic",               {("magic_system", "hemalurgy")}),
+        ("fill genérico",        "fill the cup with water",            set()),
+        ("tap genérico",         "tap on the door three times",        set()),
+        ("tapping genérico",     "tapping fingers nervously",          set()),
+        ("burn genérico",        "burn the toast",                     set()),
+        ("burn calories",        "burn calories at the gym",           set()),
+        ("command genérico",     "command respect from peers",         set()),
+        ("breath genérico",      "take a deep breath",                 set()),
+        ("ideal genérico",       "ideal situation for growth",         set()),
+        ("oath genérico",        "oath of office ceremony",            set()),
+        ("surge genérico",       "storm surge warning issued",         set()),
+        # CONTROLE — contexto Cosmere DEVE casar (subset, aceita outros)
+        ("fill metalmind",       "fill the metalmind with strength",   {("magic_system", "feruchemy")}),
+        ("burn steel",           "burn steel to push",                 {("magic_system", "allomancy")}),
+        ("spike hemalúrgico",    "the spike is hemalurgic",            {("magic_system", "hemalurgy")}),
     ]
 
     for nome, texto, esperado in casos:
@@ -92,7 +99,7 @@ def cat2_proxies_genericos():
 
 
 # ═══════════════════════════════════════════════════════════════════
-# CATEGORIA 3 — Intents contraditórios (negação de confirmação)
+# CATEGORIA 3 — Intents contraditórios
 # ═══════════════════════════════════════════════════════════════════
 
 def cat3_intents_contraditorios():
@@ -101,13 +108,13 @@ def cat3_intents_contraditorios():
     print("=" * 70)
 
     casos = [
-        ("absolutely not",       "Absolutely not.",                       {"denied"}),
-        ("definitely not",       "Definitely not.",                       {"denied"}),
-        ("certainly not",        "Certainly not.",                        {"denied"}),
-        ("yes but no",           "Yes, but no.",                          {"confirmed", "denied"}),
-        ("no, you're right",     "No, you're right.",                     {"confirmed"}),
-        ("that's not incorrect", "That's not incorrect.",                 {"confirmed"}),
-        ("won't say no",         "I won't say no.",                       {"confirmed"}),
+        ("absolutely not",       "Absolutely not.",                    {"denied"}),
+        ("definitely not",       "Definitely not.",                    {"denied"}),
+        ("certainly not",        "Certainly not.",                     {"denied"}),
+        ("yes but no",           "Yes, but no.",                       {"confirmed", "denied"}),
+        ("no, you're right",     "No, you're right.",                  {"confirmed"}),
+        ("that's not incorrect", "That's not incorrect.",              {"confirmed"}),
+        ("won't say no",         "I won't say no.",                    {"confirmed"}),
     ]
 
     for nome, texto, esperado in casos:
@@ -116,7 +123,7 @@ def cat3_intents_contraditorios():
 
 
 # ═══════════════════════════════════════════════════════════════════
-# CATEGORIA 4 — RAFOs disfarçados (falsos negativos)
+# CATEGORIA 4 — RAFOs disfarçados
 # ═══════════════════════════════════════════════════════════════════
 
 def cat4_rafos_disfarcados():
@@ -125,14 +132,13 @@ def cat4_rafos_disfarcados():
     print("=" * 70)
 
     casos = [
-        ("wait and see",         "You'll have to wait and see.",          {"rafo"}),
-        ("keep reading",         "Keep reading.",                         {"rafo"}),
-        ("would be telling",     "That would be telling.",                {"rafo"}),
-        ("I can't say",          "I'm afraid I can't say.",               {"evasive"}),
-        ("great question",       "That's a great question.",              {"evasive"}),
-        ("nice try",             "Nice try.",                             {"evasive"}),
-        # CONTROLE
-        ("RAFO literal",         "I'll RAFO that.",                       {"rafo"}),
+        ("wait and see",         "You'll have to wait and see.",       {"rafo"}),
+        ("keep reading",         "Keep reading.",                      {"rafo"}),
+        ("would be telling",     "That would be telling.",             {"rafo"}),
+        ("I can't say",          "I'm afraid I can't say.",            {"evasive"}),
+        ("great question",       "That's a great question.",           {"evasive"}),
+        ("nice try",             "Nice try.",                          {"evasive"}),
+        ("RAFO literal",         "I'll RAFO that.",                    {"rafo"}),
     ]
 
     for nome, texto, esperado in casos:
@@ -141,7 +147,7 @@ def cat4_rafos_disfarcados():
 
 
 # ═══════════════════════════════════════════════════════════════════
-# CATEGORIA 5 — Overlap entre entidades / word boundary
+# CATEGORIA 5 — Overlap de entidades e word boundary
 # ═══════════════════════════════════════════════════════════════════
 
 def cat5_overlap_entidades():
@@ -150,11 +156,11 @@ def cat5_overlap_entidades():
     print("=" * 70)
 
     casos = [
-        ("Vindication",          "Vindication is not Vin",               {("character", "vin")}),
-        ("odor não é Dor",       "the odor of the market",                set()),
-        ("Vin's possessive",     "Vin's actions were heroic",             {("character", "vin")}),
-        ("Kelsier + Thaidakar",  "Kelsier is Thaidakar",                  {("character", "kelsier")}),
-        ("Sazed + Harmony",      "Sazed became Harmony",                  {("character", "sazed")}),
+        ("Vindication",          "Vindication is not Vin",             {("character", "vin")}),
+        ("odor não é Dor",       "the odor of the market",             set()),
+        ("Vin's possessive",     "Vin's actions were heroic",          {("character", "vin")}),
+        ("Kelsier + Thaidakar",  "Kelsier is Thaidakar",               {("character", "kelsier")}),
+        ("Sazed + Harmony",      "Sazed became Harmony",               {("character", "sazed")}),
     ]
 
     for nome, texto, esperado in casos:
@@ -196,7 +202,6 @@ def cat6_contexto():
 
 if __name__ == "__main__":
     print("\n🧪 Pipeline de diagnóstico — casos capciosos\n")
-    print("Rode com: python -m tests.sandbox_edge_cases\n")
 
     cat1_shards_comuns()
     cat2_proxies_genericos()
@@ -208,4 +213,3 @@ if __name__ == "__main__":
     print("\n" + "=" * 70)
     print("DIAGNÓSTICO CONCLUÍDO")
     print("=" * 70)
-    print("\nPróximo passo: cola o output no chat que eu te ajudo a priorizar fixes.")
