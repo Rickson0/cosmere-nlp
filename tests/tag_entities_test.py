@@ -1,9 +1,14 @@
 from src.util.ontology_loader import load_ontology
-from src.preprocessing.tag_entities import build_gazetteer,tag_text
+from src.util.json_loader import load_raw
+from src.preprocessing.parse_wob import extract_answer_text
 
 
-ontology = load_ontology()
-gaz = build_gazetteer(ontology)
-text = "Would Nicrosil Compounding work with Hemalurgy on Scadrial?"
+data = load_raw()[1]
 
-assert tag_text(text) == "{('planets', 'scadrial'), ('metals', 'nicrosil'), ('concepts', 'compounding'), ('magic_system', 'hemalurgy')}"
+print(extract_answer_text(data))
+
+
+
+
+
+

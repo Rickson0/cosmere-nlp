@@ -16,3 +16,12 @@ def load_intents():
 
 def load_conversation_types():
     return load_ontology("data/ontology/conversation_types.yaml")
+def staff_members():
+    membros_nomes = {}
+    staff = load_ontology('data/ontology/staff.ymal')
+    for people in staff['staff']:
+        if people['active']:
+            membros_nomes[people['name']] = people['name']
+            for alias in people['aliases']:
+                membros_nomes[alias] = people['name']
+    return membros_nomes

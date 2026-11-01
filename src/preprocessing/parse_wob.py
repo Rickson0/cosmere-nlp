@@ -1,5 +1,5 @@
 import re
-
+from src.util.staff_loader import staff_members
 
 def strip_html(text):
     text = re.sub(r"<[^>]+>", "", text)
@@ -29,19 +29,14 @@ def extract_full_text(wob):
     return " ".join(strip_html(line["text"]) for line in wob.get("lines", []))
 
 
-RESPONDERS = {
-    "brandon sanderson",
-    "peter ahlstrom",
-    "isaac stewart",
 
-
-}
-
+        
 
 def extract_answer_text(wob):
+    membro_staff = staff_members()
     parts = []
     for line in wob.get("lines", []):
         speaker = line.get("speaker", "").lower().strip()
-        if speaker in RESPONDERS:
+        if speaker == membro_staff.get(speaker,'').lower().strip():
             parts.append(strip_html(line["text"]))
     return " ".join(parts)
