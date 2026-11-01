@@ -1,40 +1,51 @@
 shards:
   - name: Devotion
     aliases: [Aona]
+    requires_capitalization: true
   - name: Preservation
     aliases: [Leras]
+    requires_capitalization: true
   - name: Dominion
     aliases: [Skai]
+    requires_capitalization: true
   - name: Ruin
     aliases: [Ati]
+    requires_capitalization: true
   - name: Odium
     aliases: [Rayse]
-    # Taravangian vai para Retribution (Vessel atual)
+    requires_capitalization: true
   - name: Cultivation
     aliases: [Koravellium Avast, Koravellium]
+    requires_capitalization: true
   - name: Honor
     aliases: [Tanavast, Dalinar Kholin, Dalinar]
-    # Dalinar é Vessel atual
+    requires_capitalization: true
   - name: Endowment
     aliases: [Edgli]
+    requires_capitalization: true
   - name: Autonomy
     aliases: [Bavadin, Trell]
+    requires_capitalization: true
   - name: Invention
     aliases: [Chan Ko Sar]
+    requires_capitalization: true
   - name: Mercy
     requires_capitalization: true
   - name: Whimsy
     requires_capitalization: true
   - name: Virtuosity
+    requires_capitalization: true
   - name: Reason
     aliases: [Euridrius]
     requires_capitalization: true
   - name: Valor
+    requires_capitalization: true
   - name: Harmony
     aliases: [Sazed, Discord, Hero of Ages]
+    requires_capitalization: true
   - name: Retribution
     aliases: [Taravangian, Mr. T]
-
+    requires_capitalization: true
 planets:
   - name: Canticle
   - name: Dhatri
@@ -76,10 +87,6 @@ magic_system:
       ]
     proxies:
       [
-        burn,
-        burns,
-        burning,
-        burned,
         flare,
         flares,
         flaring,
@@ -112,10 +119,6 @@ magic_system:
         copperminds,
         unkeyed metalmind,
         unkeyed metalminds,
-        fill,
-        filling,
-        tap,
-        tapping,
         stored attribute,
         store attribute,
       ]
@@ -171,14 +174,13 @@ magic_system:
         Bondsmith,
         Bondsmiths,
       ]
-    proxies: [spren, sprens, ideal, ideals, oath, oaths]
+    proxies: [spren, sprens]
   - name: AonDor
     aliases: [Aon, Aons, Elantrian, Elantrians, Shaod]
     proxies: [dor, aondor]
   - name: Awakening
     aliases: [Awakener, Awakeners, Awakened, Awakening]
-    proxies: [command, commands, lifeless, breath, breaths]
-    # "command" e "breath" são ambíguos — considerar requires_context
+    proxies: [lifeless]
   - name: Forgery
     aliases: [Forger, Forgers, Forged, Forgery]
     proxies: [soulstamp, soulstamps, soulstamped]
@@ -332,8 +334,7 @@ concepts:
     aliases: [Shardworlds]
   - name: Megalith
     aliases: [Megaliths]
-  - name: Beautiful
-    requires_capitalization: true
+  
 
 character:
   - name: Hoid
@@ -352,7 +353,7 @@ character:
   - name: Vin
     aliases: [Vin Venture, Valette Renoux, Lady Heir, The Ascendant Warrior]
   - name: Sazed
-    aliases: [Harmony, Discord, The Hero of Ages]
+    aliases: []
   - name: Waxillium Ladrian
     aliases: [Wax, Waxillium, Lord Waxillium]
   - name: Wayne
@@ -381,7 +382,7 @@ character:
   - name: Jasnah
     aliases: [Jasnah Kholin, Queen Jasnah, Brightness Kholin]
   - name: Taravangian
-    aliases: [Mr. T, The King of Kharbranth, Odium, Retribution]
+    aliases: [Mr. T, The King of Kharbranth]
   - name: Raoden
     aliases: [Spirit, King Raoden]
   - name: Sarene
@@ -427,6 +428,8 @@ character:
     aliases: [Elend Venture, King of Luthadel, Emperor]
   - name: Shai
     aliases: [Moonlight, Wan ShaiLu]
+  - name: Beautiful
+    requires_capitalization: true
 
 books:
   - name: "Mistborn: The Final Empire"
@@ -538,7 +541,6 @@ locations:
   # Sel
   - name: Elantris
     requires_capitalization: true
-    # "elantris" também é nome próprio, mas por segurança
   - name: Arelon
   - name: Teod
   - name: Opelon

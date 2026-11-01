@@ -12,32 +12,24 @@ COMMON_WORD_ALIASES = {
 
 
 def build_gazetteer(ontology):
-    """Retorna dois dicts:
-       - aliases: match normal (case-insensitive)
-       - caps: match que exige capitalização (para palavras comuns)
-    """
     aliases_gaz = {}
     caps_gaz = {}
 
     for category, items in ontology.items():
-        if not isinstance(items, list):
-            continue
         for item in items:
-            if not isinstance(item, dict) or "name" not in item:
-                continue
             name = item["name"]
             requires_caps = item.get("requires_capitalization", False)
-            target = caps_gaz if requires_caps else aliases_gaz
 
             for alias in [name] + item.get("aliases", []):
-                target[alias.lower()] = (category, name)
+                if requires_caps:
+                    caps_gaz[alias] = (category, name.lower())       # ← SEM .lower()
+                else:
+                    aliases_gaz[alias.lower()] = (category, name.lower())
 
-            # Proxies sempre case-insensitive (são palavras comuns)
             for proxy in item.get("proxies", []):
-                aliases_gaz[proxy.lower()] = (category, name)
+                aliases_gaz[proxy.lower()] = (category, name.lower())
 
     return aliases_gaz, caps_gaz
-
 
 @lru_cache(maxsize=1)
 def get_matcher():
@@ -67,7 +59,7 @@ def tag_text(text):
 
     if caps_pattern:
         for match in caps_pattern.finditer(text):
-            key = match.group(0).lower()
+            key = match.group(0)                                  # ← SEM .lower()
             if key in caps_gaz:
                 tags.add(caps_gaz[key])
 

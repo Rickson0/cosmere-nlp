@@ -23,13 +23,12 @@ intent_labels:
       - "that'?s a RAFO"
       - "(big|massive|huge) RAFO"
       - "all RAFO"
+      - "would be telling" 
   - name: CONFIRMED
     patterns:
-    # "Yes" e variantes, mas ancorados no INÍCIO da fala
      - "^\\s*(yes|yep|yeah|yup|yiss)\\b"
      - "^\\s*(correct|exactly|precisely|indeed|affirmative)\\b"
      - "^\\s*(sure|of course|absolutely|certainly)\\s*[,.]"
-    # Frases de confirmação explícita
      - "that'?s (right|correct|true|it)"
      - "that is (right|correct|true|it)"
      - "you (got|have) it"
@@ -45,6 +44,8 @@ intent_labels:
      - "that'?s a yes"
      - "uh[- ]huh"
      - "mm[- ]hmm"
+     - "not (incorrect|wrong|false)"  # ← NOVO
+     - "won'?t say no" 
   - name: EVASIVE
     patterns:
       - "not going to answer"
@@ -92,6 +93,7 @@ intent_labels:
       - "another time"
       - "different question"
       - "not today"
+      - "nice try"
       - "(dodge|sidestep|avoid|evade)"
       - "I'?m (dodging|sidestepping|avoiding|evading)"
       - "not touching that"
@@ -154,6 +156,8 @@ intent_labels:
       - "not in canon"
       - "\\buh[- ]uh\\b"
       - "\\bnuh[- ]uh\\b"
+      - '^\s*(absolutely|definitely|certainly)\s+not\b'  
+      - '^\s*(absolutely|definitely|certainly)\s+nope\b' 
   - name: ANNOTATION
     patterns:
       - "I'?ll note that"

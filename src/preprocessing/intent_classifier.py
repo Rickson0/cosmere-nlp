@@ -10,7 +10,7 @@ from functools import lru_cache
 
 @lru_cache(maxsize=1)
 def get_compiled_intents(path="data/ontology/intents.yaml"):
-    import yaml
+
     with open(path) as f:
         data = yaml.safe_load(f)
 

@@ -24,7 +24,6 @@ def build_rows(wobs_path="data/raw/wobs.json"):
         conv     = classify_conversation(question)
         entities = tag_text(full)
 
-        # entidades por categoria (listas)
         by_cat = {}
         for cat, name in entities:
             by_cat.setdefault(cat, []).append(name)
@@ -115,13 +114,11 @@ def build_dataframe(wobs_path="data/raw/wobs.json") -> pl.DataFrame:
         "ent_books": pl.List(pl.Utf8),
     }
 
-    # entities vem como set de tuplas; converte para lista de dicts para Polars
     for r in rows:
         r["entities"] = [{"category": c, "name": n} for c, n in r["entities"]]
 
     df = pl.DataFrame(rows, schema=schema)
 
-    # Extrai colunas booleanas de "tem entidade X"
     for cat in ["shards", "planets", "magic_system", "metals",
                 "concepts", "character", "locations", "books"]:
         df = df.with_columns(
@@ -129,7 +126,6 @@ def build_dataframe(wobs_path="data/raw/wobs.json") -> pl.DataFrame:
             (pl.col(f"ent_{cat}").list.len() > 0).alias(f"has_{cat}"),
         )
 
-    # year como inteiro para facilitar groupby temporal
     df = df.with_columns(
         pl.col("year").cast(pl.Int32, strict=False).alias("year_int")
     )
