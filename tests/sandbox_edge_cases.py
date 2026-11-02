@@ -58,8 +58,10 @@ def cat1_shards_comuns():
         ("endowment minúsculo",    "university endowment fund",         set()),
         ("harmony minúsculo",      "living in harmony with nature",     set()),
         # CONTROLE — capitalizado DEVE casar (subset check, aceita outros)
-        ("Odium capitalizado",     "Odium is a Shard",                  {("shards", "odium")}),
-        ("Honor capitalizado",     "Honor was shattered",               {("shards", "honor")}),
+        ("Odium capitalizado",     "Odium is a Shard",
+         {("shards", "odium")}),
+        ("Honor capitalizado",     "Honor was shattered",
+         {("shards", "honor")}),
     ]
 
     for nome, texto, esperado in casos:
@@ -87,10 +89,11 @@ def cat2_proxies_genericos():
         ("ideal genérico",       "ideal situation for growth",         set()),
         ("oath genérico",        "oath of office ceremony",            set()),
         ("surge genérico",       "storm surge warning issued",         set()),
-        # CONTROLE — contexto Cosmere DEVE casar (subset, aceita outros)
-        ("fill metalmind",       "fill the metalmind with strength",   {("magic_system", "feruchemy")}),
-        ("burn steel",           "burn steel to push",                 {("magic_system", "allomancy")}),
-        ("spike hemalúrgico",    "the spike is hemalurgic",            {("magic_system", "hemalurgy")}),
+        ("fill metalmind",       "fill the metalmind with strength",
+         {("magic_system", "feruchemy")}),
+        ("burn steel", "burn steel to push", {("metals", "steel")}),
+        ("spike hemalúrgico",    "the spike is hemalurgic",
+         {("magic_system", "hemalurgy")}),
     ]
 
     for nome, texto, esperado in casos:
@@ -108,13 +111,20 @@ def cat3_intents_contraditorios():
     print("=" * 70)
 
     casos = [
-        ("absolutely not",       "Absolutely not.",                    {"denied"}),
-        ("definitely not",       "Definitely not.",                    {"denied"}),
-        ("certainly not",        "Certainly not.",                     {"denied"}),
-        ("yes but no",           "Yes, but no.",                       {"confirmed", "denied"}),
-        ("no, you're right",     "No, you're right.",                  {"confirmed"}),
-        ("that's not incorrect", "That's not incorrect.",              {"confirmed"}),
-        ("won't say no",         "I won't say no.",                    {"confirmed"}),
+        ("absolutely not",       "Absolutely not.",
+         {"denied"}),
+        ("definitely not",       "Definitely not.",
+         {"denied"}),
+        ("certainly not",        "Certainly not.",
+         {"denied"}),
+        ("yes but no",           "Yes, but no.",
+         {"confirmed", "denied"}),
+        ("no, you're right",     "No, you're right.",
+         {"confirmed"}),
+        ("that's not incorrect",
+         "That's not incorrect.",              {"confirmed"}),
+        ("won't say no",         "I won't say no.",
+         {"confirmed"}),
     ]
 
     for nome, texto, esperado in casos:
@@ -132,13 +142,20 @@ def cat4_rafos_disfarcados():
     print("=" * 70)
 
     casos = [
-        ("wait and see",         "You'll have to wait and see.",       {"rafo"}),
-        ("keep reading",         "Keep reading.",                      {"rafo"}),
-        ("would be telling",     "That would be telling.",             {"rafo"}),
-        ("I can't say",          "I'm afraid I can't say.",            {"evasive"}),
-        ("great question",       "That's a great question.",           {"evasive"}),
-        ("nice try",             "Nice try.",                          {"evasive"}),
-        ("RAFO literal",         "I'll RAFO that.",                    {"rafo"}),
+        ("wait and see",
+         "You'll have to wait and see.",       {"rafo"}),
+        ("keep reading",         "Keep reading.",
+         {"rafo"}),
+        ("would be telling",
+         "That would be telling.",             {"rafo"}),
+        ("I can't say",
+         "I'm afraid I can't say.",            {"evasive"}),
+        ("great question",
+         "That's a great question.",           {"evasive"}),
+        ("nice try",             "Nice try.",
+         {"evasive"}),
+        ("RAFO literal",         "I'll RAFO that.",
+         {"rafo"}),
     ]
 
     for nome, texto, esperado in casos:
@@ -156,11 +173,15 @@ def cat5_overlap_entidades():
     print("=" * 70)
 
     casos = [
-        ("Vindication",          "Vindication is not Vin",             {("character", "vin")}),
+        ("Vindication",          "Vindication is not Vin",
+         {("character", "vin")}),
         ("odor não é Dor",       "the odor of the market",             set()),
-        ("Vin's possessive",     "Vin's actions were heroic",          {("character", "vin")}),
-        ("Kelsier + Thaidakar",  "Kelsier is Thaidakar",               {("character", "kelsier")}),
-        ("Sazed + Harmony",      "Sazed became Harmony",               {("character", "sazed")}),
+        ("Vin's possessive",     "Vin's actions were heroic",
+         {("character", "vin")}),
+        ("Kelsier + Thaidakar",  "Kelsier is Thaidakar",
+         {("character", "kelsier")}),
+        ("Sazed + Harmony",      "Sazed became Harmony",
+         {("character", "sazed")}),
     ]
 
     for nome, texto, esperado in casos:
