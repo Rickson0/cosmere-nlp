@@ -309,7 +309,6 @@ def _(df_com_livros, pl):
         pl.len().alias('quantidade_total'),
         pl.col('full_text').explode().str.join("\n\n")
     ).drop('entities').filter(pl.col('quantidade_total') >= 20)
-
     return (estatisticas_entities,)
 
 
@@ -491,7 +490,6 @@ def _(df_com_livros, livros_lancamento):
  
     efeito_livro_recente= df_com_livros.explode('ent_books').join(livros_lancamento, left_on='ent_books', right_on='name', how='left')
 
-
     return (efeito_livro_recente,)
 
 
@@ -512,6 +510,11 @@ def _(df, pl):
     df.explode("entities").unnest("entities").filter(
         (pl.col("category") == "metals") & (pl.col("name") == "nicrosil")
     ).select([pl.len().alias("total"), pl.col("is_rafo").mean().alias("rate")])
+    return
+
+
+@app.cell
+def _():
     return
 
 
