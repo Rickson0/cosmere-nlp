@@ -7,3 +7,5 @@ spacy
 seaborn 
 matplotlib 
 pyyaml
+
+pytest>=8.0

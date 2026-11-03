@@ -11,10 +11,8 @@ from src.preprocessing.intent_classifier import classify_intent
 # ═══════════════════════════════════════════════════════════════════
 
 def check_entities(texto, esperado):
-    """
-    - esperado == set()  → exige que NADA seja encontrado (exact)
-    - esperado != set()  → exige que TODOS os esperados estejam no resultado (subset)
-    """
+  
+  
     resultado = tag_text(texto)
     if not esperado:
         ok = len(resultado) == 0
@@ -24,7 +22,6 @@ def check_entities(texto, esperado):
 
 
 def check_intent(texto, esperado):
-    """esperado: set de strings (subset do resultado)."""
     resultado = set(classify_intent(texto))
     ok = esperado.issubset(resultado)
     return ok, resultado, esperado
